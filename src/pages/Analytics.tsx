@@ -1,6 +1,9 @@
 import Navigation from "@/components/Navigation";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TrendingDown, TrendingUp, Users, Package } from "lucide-react";
+import AIPredictions from "@/components/AIPredictions";
+import WastageAnalysis from "@/components/WastageAnalysis";
 
 const Analytics = () => {
   const wastageByMealType = [
@@ -187,18 +190,27 @@ const Analytics = () => {
             </CardContent>
           </Card>
 
-          {/* ML Predictions Banner */}
-          <Card className="mt-6 bg-gradient-hero text-primary-foreground shadow-medium">
-            <CardContent className="pt-6">
-              <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-bold mb-2">AI-Powered Predictions</h3>
-                  <p className="opacity-90">
-                    Machine learning models analyzing patterns to predict demand and reduce wastage by up to 35%
-                  </p>
-                </div>
-                <div className="text-5xl font-bold whitespace-nowrap">Coming Soon</div>
-              </div>
+          {/* AI Predictions Section */}
+          <Card className="mt-6 shadow-large">
+            <CardHeader>
+              <CardTitle className="text-2xl">AI-Powered Intelligence</CardTitle>
+              <CardDescription>
+                Machine learning predictions and insights to optimize food distribution
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Tabs defaultValue="predictions" className="w-full">
+                <TabsList className="grid w-full grid-cols-2">
+                  <TabsTrigger value="predictions">Demand Predictions</TabsTrigger>
+                  <TabsTrigger value="analysis">Wastage Analysis</TabsTrigger>
+                </TabsList>
+                <TabsContent value="predictions" className="mt-6">
+                  <AIPredictions />
+                </TabsContent>
+                <TabsContent value="analysis" className="mt-6">
+                  <WastageAnalysis />
+                </TabsContent>
+              </Tabs>
             </CardContent>
           </Card>
         </div>
