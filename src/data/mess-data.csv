@@ -1,0 +1,1148 @@
+day,mess_name,meal_type,menu_item,footfall,prepared_qty_kg,consumed_qty_kg,wastage_qty_kg
+Sunday,Bluedove,Breakfast,Chhole,2182,37.06,29.63,7.43
+Sunday,Bluedove,Breakfast,Bhature,2182,38.67,30.92,7.75
+Sunday,Bluedove,Breakfast,Masala Daliya,2182,115.0,91.95,23.05
+Sunday,Bluedove,Breakfast,Corn flakes,2182,41.63,33.29,8.34
+Sunday,Bluedove,Breakfast,Coleslaw,2182,41.24,32.97,8.27
+Sunday,Bluedove,Breakfast,Boiled eggs,2182,42.63,34.09,8.54
+Sunday,Bluedove,Breakfast,Banana,2182,18.73,14.98,3.75
+Sunday,Bluedove,Breakfast,Bread,2182,39.61,31.67,7.94
+Sunday,Bluedove,Breakfast,Butter,2182,37.09,29.66,7.43
+Sunday,Bluedove,Breakfast,Jam,2182,38.3,30.62,7.68
+Sunday,Bluedove,Breakfast,Flavoured milk,2182,16.06,12.2,3.86
+Sunday,Bluedove,Breakfast,Tea,2182,14.83,11.26,3.57
+Sunday,Bluedove,Breakfast,Coffee,2182,15.27,11.6,3.67
+Sunday,Bluedove,Breakfast,Milk,2182,16.43,12.48,3.95
+Sunday,Bluedove,Lunch,Green salad,6984,103.5,91.75,11.75
+Sunday,Bluedove,Lunch,Steamed Rice,6984,85.67,72.15,13.52
+Sunday,Bluedove,Lunch,Fried Rice,6984,563.89,499.89,64.0
+Sunday,Bluedove,Lunch,Gobhi Manchurian,6984,214.06,189.76,24.3
+Sunday,Bluedove,Lunch,Dal Methi,6984,631.64,559.95,71.69
+Sunday,Bluedove,Lunch,Hing Kadhi,6984,198.86,176.29,22.57
+Sunday,Bluedove,Lunch,Sweet Lassi,6984,77.13,64.96,12.17
+Sunday,Bluedove,Lunch,Fried chilli,6984,219.01,194.15,24.86
+Sunday,Bluedove,Lunch,Garlic chutney,6984,99.37,88.09,11.28
+Sunday,Bluedove,Lunch,Chapati,6984,646.27,572.92,73.35
+Sunday,Bluedove,Lunch,Besan Burfi,6984,124.48,93.8,30.68
+Sunday,Bluedove,Hi-Tea,Samosa,1697,95.97,68.71,27.26
+Sunday,Bluedove,Hi-Tea,Tea,1697,37.24,28.14,9.1
+Sunday,Bluedove,Hi-Tea,Coffee,1697,39.83,30.1,9.73
+Sunday,Bluedove,Hi-Tea,Milk,1697,36.31,27.44,8.87
+Sunday,Bluedove,Dinner,Green salad,6184,154.18,136.28,17.9
+Sunday,Bluedove,Dinner,Veg paneer Biryani,6184,298.48,263.83,34.65
+Sunday,Bluedove,Dinner,Dal fry,6184,929.64,821.73,107.91
+Sunday,Bluedove,Dinner,Chicken Biryani,6184,296.55,262.13,34.42
+Sunday,Bluedove,Dinner,Boondi Raita,6184,151.26,133.7,17.56
+Sunday,Bluedove,Dinner,Chapati,6184,840.52,742.96,97.56
+Monday,Bluedove,Breakfast,Medu Vada,2910,58.5,46.88,11.62
+Monday,Bluedove,Breakfast,Sambar,2910,60.03,48.11,11.92
+Monday,Bluedove,Breakfast,Masala Oats,2910,58.71,47.05,11.66
+Monday,Bluedove,Breakfast,Corn flakes,2910,60.49,48.48,12.01
+Monday,Bluedove,Breakfast,Coleslaw,2910,64.08,51.35,12.73
+Monday,Bluedove,Breakfast,Coconut chutney,2910,30.68,24.59,6.09
+Monday,Bluedove,Breakfast,Boiled eggs,2910,61.41,49.21,12.2
+Monday,Bluedove,Breakfast,Banana,2910,29.9,23.96,5.94
+Monday,Bluedove,Breakfast,Bread,2910,60.38,48.39,11.99
+Monday,Bluedove,Breakfast,Butter,2910,67.1,53.77,13.33
+Monday,Bluedove,Breakfast,Jam,2910,64.2,51.45,12.75
+Monday,Bluedove,Breakfast,Flavoured milk,2910,25.52,19.43,6.09
+Monday,Bluedove,Breakfast,Tea,2910,23.77,18.1,5.67
+Monday,Bluedove,Breakfast,Coffee,2910,26.01,19.8,6.21
+Monday,Bluedove,Breakfast,Milk,2910,23.74,18.07,5.67
+Monday,Bluedove,Lunch,Green salad,7760,119.16,108.5,10.66
+Monday,Bluedove,Lunch,Jeera rice,7760,677.89,617.26,60.63
+Monday,Bluedove,Lunch,Steamed rice,7760,89.21,77.17,12.04
+Monday,Bluedove,Lunch,Dal tadka,7760,682.62,621.57,61.05
+Monday,Bluedove,Lunch,Gatta curry,7760,233.14,212.29,20.85
+Monday,Bluedove,Lunch,Tawa veg masala,7760,230.77,210.13,20.64
+Monday,Bluedove,Lunch,Rasna,7760,84.57,73.16,11.41
+Monday,Bluedove,Lunch,Fried chilli,7760,204.47,186.18,18.29
+Monday,Bluedove,Lunch,Garlic chutney,7760,107.24,97.65,9.59
+Monday,Bluedove,Lunch,Chapati,7760,710.02,646.52,63.5
+Monday,Bluedove,Lunch,Balushahi,7760,234.32,213.36,20.96
+Monday,Bluedove,Hi-Tea,Macaroni,2425,135.56,107.35,28.21
+Monday,Bluedove,Hi-Tea,Tea,2425,52.03,39.14,12.89
+Monday,Bluedove,Hi-Tea,Coffee,2425,56.42,42.44,13.98
+Monday,Bluedove,Hi-Tea,Milk,2425,52.56,39.54,13.02
+Monday,Bluedove,Dinner,Green salad,7275,167.08,149.5,17.58
+Monday,Bluedove,Dinner,Steamed Rice,7275,140.68,119.59,21.09
+Monday,Bluedove,Dinner,Black masoor Dal,7275,1005.15,899.41,105.74
+Monday,Bluedove,Dinner,Veg kofta curry,7275,352.98,315.85,37.13
+Monday,Bluedove,Dinner,Egg Keema curry,7275,370.44,331.47,38.97
+Monday,Bluedove,Dinner,Chapati,7275,997.89,892.91,104.98
+Tuesday,Bluedove,Breakfast,Aloo Paratha,3000,62.08,51.66,10.42
+Tuesday,Bluedove,Breakfast,Curd,3000,57.93,48.21,9.72
+Tuesday,Bluedove,Breakfast,Masala poha,3000,57.49,47.84,9.65
+Tuesday,Bluedove,Breakfast,Green chutney,3000,29.06,24.18,4.88
+Tuesday,Bluedove,Breakfast,Corn flakes,3000,63.25,52.64,10.61
+Tuesday,Bluedove,Breakfast,Coleslaw,3000,64.88,53.99,10.89
+Tuesday,Bluedove,Breakfast,Boiled eggs,3000,61.21,50.94,10.27
+Tuesday,Bluedove,Breakfast,Banana,3000,28.83,23.99,4.84
+Tuesday,Bluedove,Breakfast,Bread,3000,60.81,50.61,10.2
+Tuesday,Bluedove,Breakfast,Butter,3000,66.9,55.68,11.22
+Tuesday,Bluedove,Breakfast,Jam,3000,62.27,51.82,10.45
+Tuesday,Bluedove,Breakfast,Flavoured milk,3000,26.66,21.08,5.58
+Tuesday,Bluedove,Breakfast,Tea,3000,26.22,20.73,5.49
+Tuesday,Bluedove,Breakfast,Coffee,3000,22.86,18.07,4.79
+Tuesday,Bluedove,Breakfast,Milk,3000,25.67,20.29,5.38
+Tuesday,Bluedove,Lunch,Green salad,8000,111.8,103.2,8.6
+Tuesday,Bluedove,Lunch,Steamed rice,8000,95.0,83.31,11.69
+Tuesday,Bluedove,Lunch,Masala rice,8000,653.47,603.21,50.26
+Tuesday,Bluedove,Lunch,Kadhi pakoda,8000,229.83,190.94,38.89
+Tuesday,Bluedove,Lunch,Lauki tamatar,8000,230.54,212.81,17.73
+Tuesday,Bluedove,Lunch,Chana dal tadka,8000,747.37,689.88,57.49
+Tuesday,Bluedove,Lunch,Lemon water,8000,123.11,113.64,9.47
+Tuesday,Bluedove,Lunch,Fried chilli,8000,223.47,206.28,17.19
+Tuesday,Bluedove,Lunch,Garlic chutney,8000,116.14,107.21,8.93
+Tuesday,Bluedove,Lunch,Chapati,8000,738.08,681.31,56.77
+Tuesday,Bluedove,Lunch,Sooji ka halwa,8000,134.86,105.81,29.05
+Tuesday,Bluedove,Hi-Tea,Banana cake,2500,89.77,61.54,28.23
+Tuesday,Bluedove,Hi-Tea,Tea,2500,66.67,51.09,15.58
+Tuesday,Bluedove,Hi-Tea,Coffee,2500,73.55,56.36,17.19
+Tuesday,Bluedove,Hi-Tea,Milk,2500,71.03,54.43,16.6
+Tuesday,Bluedove,Dinner,Green salad,7500,135.66,125.24,10.42
+Tuesday,Bluedove,Dinner,Tomato Rice,7500,745.27,688.01,57.26
+Tuesday,Bluedove,Dinner,Dal makhani,7500,787.21,726.73,60.48
+Tuesday,Bluedove,Dinner,Mangodi papad,7500,249.24,230.09,19.15
+Tuesday,Bluedove,Dinner,Aloo Gobhi masala,7500,288.54,266.37,22.17
+Tuesday,Bluedove,Dinner,Garlic chutney,7500,143.18,132.18,11.0
+Tuesday,Bluedove,Dinner,Chapati,7500,785.05,724.74,60.31
+Wednesday,Bluedove,Breakfast,Pasta,3090,77.29,61.51,15.78
+Wednesday,Bluedove,Breakfast,Seviyan upma,3090,78.09,62.14,15.95
+Wednesday,Bluedove,Breakfast,Green chutney,3090,34.02,27.07,6.95
+Wednesday,Bluedove,Breakfast,Corn flakes,3090,72.71,57.86,14.85
+Wednesday,Bluedove,Breakfast,Coleslaw,3090,67.85,54.0,13.85
+Wednesday,Bluedove,Breakfast,Boiled eggs,3090,75.92,60.42,15.5
+Wednesday,Bluedove,Breakfast,Watermelon,3090,37.99,30.23,7.76
+Wednesday,Bluedove,Breakfast,Bread,3090,68.54,54.54,14.0
+Wednesday,Bluedove,Breakfast,Butter,3090,72.59,57.77,14.82
+Wednesday,Bluedove,Breakfast,Jam,3090,73.46,58.46,15.0
+Wednesday,Bluedove,Breakfast,Flavoured milk,3090,28.06,21.21,6.85
+Wednesday,Bluedove,Breakfast,Tea,3090,30.89,23.35,7.54
+Wednesday,Bluedove,Breakfast,Coffee,3090,28.79,21.77,7.02
+Wednesday,Bluedove,Breakfast,Milk,3090,27.81,21.02,6.79
+Wednesday,Bluedove,Lunch,Green salad,8240,133.49,123.94,9.55
+Wednesday,Bluedove,Lunch,Steamed rice,8240,98.07,86.5,11.57
+Wednesday,Bluedove,Lunch,Jeera rice,8240,749.23,695.63,53.6
+Wednesday,Bluedove,Lunch,Rajma masala,8240,277.9,258.02,19.88
+Wednesday,Bluedove,Lunch,Bhindi to pyaaz,8240,263.67,244.81,18.86
+Wednesday,Bluedove,Lunch,Dahi aloo,8240,254.95,236.71,18.24
+Wednesday,Bluedove,Lunch,Curd,8240,258.22,239.75,18.47
+Wednesday,Bluedove,Lunch,Fried chilli,8240,241.89,224.58,17.31
+Wednesday,Bluedove,Lunch,Garlic chutney,8240,123.08,114.27,8.81
+Wednesday,Bluedove,Lunch,Chapati,8240,739.14,686.26,52.88
+Wednesday,Bluedove,Lunch,Pastry,8240,245.97,228.37,17.6
+Wednesday,Bluedove,Hi-Tea,Bombay sandwich,2575,143.4,112.61,30.79
+Wednesday,Bluedove,Hi-Tea,Tea,2575,53.75,40.1,13.65
+Wednesday,Bluedove,Hi-Tea,Coffee,2575,59.83,44.64,15.19
+Wednesday,Bluedove,Hi-Tea,Milk,2575,59.41,44.32,15.09
+Wednesday,Bluedove,Dinner,Green salad,7725,177.16,158.67,18.49
+Wednesday,Bluedove,Dinner,Steamed Rice,7725,151.92,129.26,22.66
+Wednesday,Bluedove,Dinner,Mix Dal Tadka,7725,1058.72,948.2,110.52
+Wednesday,Bluedove,Dinner,Palak paneer,7725,348.06,311.73,36.33
+Wednesday,Bluedove,Dinner,Tawa chicken,7725,395.58,354.29,41.29
+Wednesday,Bluedove,Dinner,Chapati,7725,1104.59,989.28,115.31
+Thursday,Bluedove,Breakfast,Poori,2910,72.01,59.16,12.85
+Thursday,Bluedove,Breakfast,Aloo Bhaji,2910,65.23,53.59,11.64
+Thursday,Bluedove,Breakfast,Sheera,2910,64.21,52.75,11.46
+Thursday,Bluedove,Breakfast,Coleslaw,2910,67.87,55.76,12.11
+Thursday,Bluedove,Breakfast,Boiled Egg,2910,67.79,55.69,12.1
+Thursday,Bluedove,Breakfast,Banana,2910,34.13,28.04,6.09
+Thursday,Bluedove,Breakfast,Bread,2910,71.15,58.45,12.7
+Thursday,Bluedove,Breakfast,Butter,2910,70.54,57.95,12.59
+Thursday,Bluedove,Breakfast,Jam,2910,73.95,60.75,13.2
+Thursday,Bluedove,Breakfast,Flavoured Milk,2910,25.69,20.05,5.64
+Thursday,Bluedove,Breakfast,Tea,2910,27.03,21.1,5.93
+Thursday,Bluedove,Breakfast,Coffee,2910,26.75,20.88,5.87
+Thursday,Bluedove,Breakfast,Milk,2910,29.04,22.66,6.38
+Thursday,Bluedove,Lunch,Green salad,7760,111.72,100.76,10.96
+Thursday,Bluedove,Lunch,Steamed rice,7760,88.99,76.24,12.75
+Thursday,Bluedove,Lunch,Masala rice,7760,651.92,587.94,63.98
+Thursday,Bluedove,Lunch,Dal palak,7760,648.82,585.14,63.68
+Thursday,Bluedove,Lunch,Arbi matar,7760,240.55,216.94,23.61
+Thursday,Bluedove,Lunch,Soya keema,7760,223.24,201.33,21.91
+Thursday,Bluedove,Lunch,Boondi raita,7760,119.16,107.47,11.69
+Thursday,Bluedove,Lunch,Fried chilli,7760,227.1,204.81,22.29
+Thursday,Bluedove,Lunch,Garlic chutney,7760,104.55,94.29,10.26
+Thursday,Bluedove,Lunch,Chapati,7760,726.59,655.28,71.31
+Thursday,Bluedove,Lunch,Jalebi,7760,144.4,110.69,33.71
+Thursday,Bluedove,Hi-Tea,Poha,2425,125.21,101.84,23.37
+Thursday,Bluedove,Hi-Tea,Tea,2425,52.79,40.79,12.0
+Thursday,Bluedove,Hi-Tea,Coffee,2425,50.49,39.01,11.48
+Thursday,Bluedove,Hi-Tea,Milk,2425,52.07,40.23,11.84
+Thursday,Bluedove,Dinner,Green salad,7275,152.87,135.35,17.52
+Thursday,Bluedove,Dinner,Jeera Rice,7275,1007.99,892.49,115.5
+Thursday,Bluedove,Dinner,Black Chana Lobiya masala,7275,300.07,265.69,34.38
+Thursday,Bluedove,Dinner,Veg kolhapur,7275,325.96,288.61,37.35
+Thursday,Bluedove,Dinner,Banarasi Dum Aloo,7275,309.54,274.07,35.47
+Thursday,Bluedove,Dinner,Garlic chutney,7275,153.97,136.33,17.64
+Thursday,Bluedove,Dinner,Chapati,7275,1009.5,893.83,115.67
+Friday,Bluedove,Breakfast,Idli,3000,66.91,54.48,12.43
+Friday,Bluedove,Breakfast,Sambar,3000,61.08,49.73,11.35
+Friday,Bluedove,Breakfast,Sprouts,3000,62.55,50.93,11.62
+Friday,Bluedove,Breakfast,Coconut chutney,3000,34.75,28.29,6.46
+Friday,Bluedove,Breakfast,Corn flakes,3000,65.47,53.31,12.16
+Friday,Bluedove,Breakfast,Boiled eggs,3000,65.09,53.0,12.09
+Friday,Bluedove,Breakfast,Watermelon,3000,33.61,27.37,6.24
+Friday,Bluedove,Breakfast,Coleslaw,3000,60.07,48.91,11.16
+Friday,Bluedove,Breakfast,Bread,3000,65.53,53.35,12.18
+Friday,Bluedove,Breakfast,Butter,3000,64.68,52.66,12.02
+Friday,Bluedove,Breakfast,Jam,3000,68.3,55.61,12.69
+Friday,Bluedove,Breakfast,Flavoured milk,3000,24.44,18.9,5.54
+Friday,Bluedove,Breakfast,Tea,3000,27.77,21.48,6.29
+Friday,Bluedove,Breakfast,Coffee,3000,24.12,18.66,5.46
+Friday,Bluedove,Breakfast,Milk,3000,24.56,19.0,5.56
+Friday,Bluedove,Lunch,Green salad,8000,120.16,111.24,8.92
+Friday,Bluedove,Lunch,Moti rice,8000,671.59,621.74,49.85
+Friday,Bluedove,Lunch,Steamed rice,8000,87.82,77.24,10.58
+Friday,Bluedove,Lunch,Moong dal tadka,8000,745.09,689.78,55.31
+Friday,Bluedove,Lunch,Chana masala,8000,224.27,207.62,16.65
+Friday,Bluedove,Lunch,Khatta meetha kaddu,8000,237.3,219.69,17.61
+Friday,Bluedove,Lunch,Butter milk,8000,95.29,83.81,11.48
+Friday,Bluedove,Lunch,Fried chilli,8000,230.75,213.62,17.13
+Friday,Bluedove,Lunch,Garlic chutney,8000,118.45,109.66,8.79
+Friday,Bluedove,Lunch,Chapati,8000,668.11,618.52,49.59
+Friday,Bluedove,Lunch,Seviyan payasam,8000,145.11,114.19,30.92
+Friday,Bluedove,Hi-Tea,Mix veg pakoda,2500,134.09,95.39,38.7
+Friday,Bluedove,Hi-Tea,Tea,2500,56.04,42.08,13.96
+Friday,Bluedove,Hi-Tea,Coffee,2500,52.8,39.65,13.15
+Friday,Bluedove,Hi-Tea,Milk,2500,52.94,39.75,13.19
+Friday,Bluedove,Dinner,Green salad,7500,167.24,154.19,13.05
+Friday,Bluedove,Dinner,Steamed Rice,7500,142.66,124.95,17.71
+Friday,Bluedove,Dinner,Dal Palak,7500,1163.03,1072.25,90.78
+Friday,Bluedove,Dinner,Mutter paneer,7500,387.54,357.29,30.25
+Friday,Bluedove,Dinner,Butter chicken,7500,334.53,308.42,26.11
+Friday,Bluedove,Dinner,Chapati,7500,1036.66,955.75,80.91
+Saturday,Bluedove,Breakfast,Kulcha,2318,53.0,43.16,9.84
+Saturday,Bluedove,Breakfast,White mutter,2318,52.99,43.15,9.84
+Saturday,Bluedove,Breakfast,Rawa upma,2318,48.91,39.83,9.08
+Saturday,Bluedove,Breakfast,Green chutney,2318,23.61,19.23,4.38
+Saturday,Bluedove,Breakfast,Corn flakes,2318,52.62,42.85,9.77
+Saturday,Bluedove,Breakfast,Egg bhurji,2318,51.58,42.0,9.58
+Saturday,Bluedove,Breakfast,Banana,2318,25.42,20.7,4.72
+Saturday,Bluedove,Breakfast,Coleslaw,2318,53.85,43.85,10.0
+Saturday,Bluedove,Breakfast,Bread,2318,51.19,41.69,9.5
+Saturday,Bluedove,Breakfast,Butter,2318,46.02,37.48,8.54
+Saturday,Bluedove,Breakfast,Jam,2318,52.49,42.74,9.75
+Saturday,Bluedove,Breakfast,Flavoured milk,2318,19.34,14.96,4.38
+Saturday,Bluedove,Breakfast,Tea,2318,20.51,15.87,4.64
+Saturday,Bluedove,Breakfast,Coffee,2318,21.39,16.55,4.84
+Saturday,Bluedove,Breakfast,Milk,2318,18.81,14.55,4.26
+Saturday,Bluedove,Lunch,Green salad,7416,116.69,103.97,12.72
+Saturday,Bluedove,Lunch,Steamed rice,7416,100.47,85.05,15.42
+Saturday,Bluedove,Lunch,Tomato rice,7416,719.92,641.47,78.45
+Saturday,Bluedove,Lunch,Sambhar,7416,253.22,225.63,27.59
+Saturday,Bluedove,Lunch,Cabbage thoran,7416,257.72,229.64,28.08
+Saturday,Bluedove,Lunch,Aloo choka,7416,237.23,211.38,25.85
+Saturday,Bluedove,Lunch,Coconut chutney,7416,127.2,113.34,13.86
+Saturday,Bluedove,Lunch,Lemon water,7416,119.82,106.76,13.06
+Saturday,Bluedove,Lunch,Set Dosa,7416,248.59,221.5,27.09
+Saturday,Bluedove,Lunch,Chapati,7416,698.4,622.29,76.11
+Saturday,Bluedove,Lunch,Fruit custard,7416,123.0,93.16,29.84
+Saturday,Bluedove,Hi-Tea,Doughnut,1802,66.35,43.81,22.54
+Saturday,Bluedove,Hi-Tea,Tea,1802,50.14,37.01,13.13
+Saturday,Bluedove,Hi-Tea,Coffee,1802,49.11,36.24,12.87
+Saturday,Bluedove,Hi-Tea,Milk,1802,46.22,34.11,12.11
+Saturday,Bluedove,Dinner,Green salad,6566,119.17,107.34,11.83
+Saturday,Bluedove,Dinner,Moti Rice,6566,700.92,631.37,69.55
+Saturday,Bluedove,Dinner,Mix Moti Dal,6566,653.49,588.64,64.85
+Saturday,Bluedove,Dinner,Aloo Achari,6566,220.31,198.45,21.86
+Saturday,Bluedove,Dinner,Soya chaap masala,6566,250.87,225.98,24.89
+Saturday,Bluedove,Dinner,Garlic chutney,6566,125.83,113.34,12.49
+Saturday,Bluedove,Dinner,Chapati,6566,747.09,672.95,74.14
+Sunday,Bluedove,Breakfast,Chhole,2182,37.85,30.18,7.67
+Sunday,Bluedove,Breakfast,Bhature,2182,37.72,30.07,7.65
+Sunday,Bluedove,Breakfast,Masala Daliya,2182,116.64,93.0,23.64
+Sunday,Bluedove,Breakfast,Corn flakes,2182,42.67,34.02,8.65
+Sunday,Bluedove,Breakfast,Coleslaw,2182,42.01,33.49,8.52
+Sunday,Bluedove,Breakfast,Boiled eggs,2182,42.43,33.83,8.6
+Sunday,Bluedove,Breakfast,Banana,2182,21.34,17.01,4.33
+Sunday,Bluedove,Breakfast,Bread,2182,38.25,30.5,7.75
+Sunday,Bluedove,Breakfast,Butter,2182,38.5,30.7,7.8
+Sunday,Bluedove,Breakfast,Jam,2182,37.56,29.95,7.61
+Sunday,Bluedove,Breakfast,Flavoured milk,2182,16.76,12.69,4.07
+Sunday,Bluedove,Breakfast,Tea,2182,17.03,12.9,4.13
+Sunday,Bluedove,Breakfast,Coffee,2182,15.8,11.97,3.83
+Sunday,Bluedove,Breakfast,Milk,2182,16.35,12.38,3.97
+Sunday,Bluedove,Lunch,Green salad,6984,107.99,99.19,8.8
+Sunday,Bluedove,Lunch,Steamed Rice,6984,87.85,76.66,11.19
+Sunday,Bluedove,Lunch,Fried Rice,6984,642.68,590.34,52.34
+Sunday,Bluedove,Lunch,Gobhi Manchurian,6984,216.53,198.89,17.64
+Sunday,Bluedove,Lunch,Dal Methi,6984,565.68,519.61,46.07
+Sunday,Bluedove,Lunch,Hing Kadhi,6984,211.8,194.55,17.25
+Sunday,Bluedove,Lunch,Sweet Lassi,6984,79.44,69.32,10.12
+Sunday,Bluedove,Lunch,Fried chilli,6984,218.15,200.38,17.77
+Sunday,Bluedove,Lunch,Garlic chutney,6984,106.97,98.26,8.71
+Sunday,Bluedove,Lunch,Chapati,6984,589.39,541.39,48.0
+Sunday,Bluedove,Lunch,Besan Burfi,6984,128.08,100.0,28.08
+Sunday,Bluedove,Hi-Tea,Samosa,1697,98.08,67.79,30.29
+Sunday,Bluedove,Hi-Tea,Tea,1697,39.15,28.56,10.59
+Sunday,Bluedove,Hi-Tea,Coffee,1697,35.38,25.81,9.57
+Sunday,Bluedove,Hi-Tea,Milk,1697,38.9,28.38,10.52
+Sunday,Bluedove,Dinner,Green salad,6184,141.9,124.85,17.05
+Sunday,Bluedove,Dinner,Veg paneer Biryani,6184,306.77,269.91,36.86
+Sunday,Bluedove,Dinner,Dal fry,6184,840.48,739.5,100.98
+Sunday,Bluedove,Dinner,Chicken Biryani,6184,270.6,238.09,32.51
+Sunday,Bluedove,Dinner,Boondi Raita,6184,139.27,122.54,16.73
+Sunday,Bluedove,Dinner,Chapati,6184,930.01,818.28,111.73
+Monday,Bluedove,Breakfast,Medu Vada,2910,60.5,50.15,10.35
+Monday,Bluedove,Breakfast,Sambar,2910,64.14,53.17,10.97
+Monday,Bluedove,Breakfast,Masala Oats,2910,61.71,51.15,10.56
+Monday,Bluedove,Breakfast,Corn flakes,2910,67.54,55.99,11.55
+Monday,Bluedove,Breakfast,Coleslaw,2910,63.08,52.29,10.79
+Monday,Bluedove,Breakfast,Coconut chutney,2910,33.56,27.82,5.74
+Monday,Bluedove,Breakfast,Boiled eggs,2910,58.86,48.79,10.07
+Monday,Bluedove,Breakfast,Banana,2910,33.72,27.95,5.77
+Monday,Bluedove,Breakfast,Bread,2910,59.49,49.31,10.18
+Monday,Bluedove,Breakfast,Butter,2910,67.36,55.84,11.52
+Monday,Bluedove,Breakfast,Jam,2910,60.36,50.04,10.32
+Monday,Bluedove,Breakfast,Flavoured milk,2910,23.51,18.51,5.0
+Monday,Bluedove,Breakfast,Tea,2910,24.82,19.55,5.27
+Monday,Bluedove,Breakfast,Coffee,2910,26.0,20.48,5.52
+Monday,Bluedove,Breakfast,Milk,2910,24.34,19.17,5.17
+Monday,Bluedove,Lunch,Green salad,7760,110.71,101.96,8.75
+Monday,Bluedove,Lunch,Jeera rice,7760,650.86,599.45,51.41
+Monday,Bluedove,Lunch,Steamed rice,7760,89.49,78.3,11.19
+Monday,Bluedove,Lunch,Dal tadka,7760,637.02,586.7,50.32
+Monday,Bluedove,Lunch,Gatta curry,7760,228.4,210.36,18.04
+Monday,Bluedove,Lunch,Tawa veg masala,7760,203.39,187.32,16.07
+Monday,Bluedove,Lunch,Rasna,7760,94.42,82.61,11.81
+Monday,Bluedove,Lunch,Fried chilli,7760,222.37,204.8,17.57
+Monday,Bluedove,Lunch,Garlic chutney,7760,114.39,105.35,9.04
+Monday,Bluedove,Lunch,Chapati,7760,648.63,597.39,51.24
+Monday,Bluedove,Lunch,Balushahi,7760,205.81,189.55,16.26
+Monday,Bluedove,Hi-Tea,Macaroni,2425,128.68,103.71,24.97
+Monday,Bluedove,Hi-Tea,Tea,2425,51.33,39.3,12.03
+Monday,Bluedove,Hi-Tea,Coffee,2425,55.86,42.77,13.09
+Monday,Bluedove,Hi-Tea,Milk,2425,54.77,41.93,12.84
+Monday,Bluedove,Dinner,Green salad,7275,168.82,151.33,17.49
+Monday,Bluedove,Dinner,Steamed Rice,7275,137.27,116.9,20.37
+Monday,Bluedove,Dinner,Black masoor Dal,7275,1028.5,921.96,106.54
+Monday,Bluedove,Dinner,Veg kofta curry,7275,336.88,301.98,34.9
+Monday,Bluedove,Dinner,Egg Keema curry,7275,327.5,293.58,33.92
+Monday,Bluedove,Dinner,Chapati,7275,1118.43,1002.58,115.85
+Tuesday,Bluedove,Breakfast,Aloo Paratha,3000,65.98,54.05,11.93
+Tuesday,Bluedove,Breakfast,Curd,3000,63.13,51.71,11.42
+Tuesday,Bluedove,Breakfast,Masala poha,3000,60.01,49.16,10.85
+Tuesday,Bluedove,Breakfast,Green chutney,3000,31.23,25.58,5.65
+Tuesday,Bluedove,Breakfast,Corn flakes,3000,57.03,46.72,10.31
+Tuesday,Bluedove,Breakfast,Coleslaw,3000,59.87,49.04,10.83
+Tuesday,Bluedove,Breakfast,Boiled eggs,3000,61.29,50.21,11.08
+Tuesday,Bluedove,Breakfast,Banana,3000,31.39,25.71,5.68
+Tuesday,Bluedove,Breakfast,Bread,3000,63.52,52.03,11.49
+Tuesday,Bluedove,Breakfast,Butter,3000,61.64,50.49,11.15
+Tuesday,Bluedove,Breakfast,Jam,3000,61.41,50.3,11.11
+Tuesday,Bluedove,Breakfast,Flavoured milk,3000,23.66,18.41,5.25
+Tuesday,Bluedove,Breakfast,Tea,3000,24.69,19.21,5.48
+Tuesday,Bluedove,Breakfast,Coffee,3000,26.38,20.53,5.85
+Tuesday,Bluedove,Breakfast,Milk,3000,25.97,20.21,5.76
+Tuesday,Bluedove,Lunch,Green salad,8000,116.42,105.03,11.39
+Tuesday,Bluedove,Lunch,Steamed rice,8000,94.88,81.32,13.56
+Tuesday,Bluedove,Lunch,Masala rice,8000,678.4,612.02,66.38
+Tuesday,Bluedove,Lunch,Kadhi pakoda,8000,244.09,198.18,45.91
+Tuesday,Bluedove,Lunch,Lauki tamatar,8000,241.59,217.95,23.64
+Tuesday,Bluedove,Lunch,Chana dal tadka,8000,716.04,645.97,70.07
+Tuesday,Bluedove,Lunch,Lemon water,8000,111.01,100.15,10.86
+Tuesday,Bluedove,Lunch,Fried chilli,8000,221.08,199.45,21.63
+Tuesday,Bluedove,Lunch,Garlic chutney,8000,107.29,96.79,10.5
+Tuesday,Bluedove,Lunch,Chapati,8000,735.76,663.76,72.0
+Tuesday,Bluedove,Lunch,Sooji ka halwa,8000,129.83,99.56,30.27
+Tuesday,Bluedove,Hi-Tea,Banana cake,2500,90.07,61.06,29.01
+Tuesday,Bluedove,Hi-Tea,Tea,2500,67.14,50.87,16.27
+Tuesday,Bluedove,Hi-Tea,Coffee,2500,72.81,55.16,17.65
+Tuesday,Bluedove,Hi-Tea,Milk,2500,70.52,53.43,17.09
+Tuesday,Bluedove,Dinner,Green salad,7500,138.37,124.35,14.02
+Tuesday,Bluedove,Dinner,Tomato Rice,7500,745.92,670.37,75.55
+Tuesday,Bluedove,Dinner,Dal makhani,7500,842.52,757.18,85.34
+Tuesday,Bluedove,Dinner,Mangodi papad,7500,281.67,253.14,28.53
+Tuesday,Bluedove,Dinner,Aloo Gobhi masala,7500,253.0,227.37,25.63
+Tuesday,Bluedove,Dinner,Garlic chutney,7500,133.38,119.87,13.51
+Tuesday,Bluedove,Dinner,Chapati,7500,869.35,781.3,88.05
+Wednesday,Bluedove,Breakfast,Pasta,3090,67.63,55.09,12.54
+Wednesday,Bluedove,Breakfast,Seviyan upma,3090,69.95,56.98,12.97
+Wednesday,Bluedove,Breakfast,Green chutney,3090,38.47,31.34,7.13
+Wednesday,Bluedove,Breakfast,Corn flakes,3090,72.37,58.95,13.42
+Wednesday,Bluedove,Breakfast,Coleslaw,3090,76.39,62.23,14.16
+Wednesday,Bluedove,Breakfast,Boiled eggs,3090,74.83,60.96,13.87
+Wednesday,Bluedove,Breakfast,Watermelon,3090,39.28,32.0,7.28
+Wednesday,Bluedove,Breakfast,Bread,3090,73.99,60.27,13.72
+Wednesday,Bluedove,Breakfast,Butter,3090,78.12,63.64,14.48
+Wednesday,Bluedove,Breakfast,Jam,3090,77.44,63.08,14.36
+Wednesday,Bluedove,Breakfast,Flavoured milk,3090,29.68,22.97,6.71
+Wednesday,Bluedove,Breakfast,Tea,3090,30.17,23.35,6.82
+Wednesday,Bluedove,Breakfast,Coffee,3090,29.17,22.57,6.6
+Wednesday,Bluedove,Breakfast,Milk,3090,30.69,23.75,6.94
+Wednesday,Bluedove,Lunch,Green salad,8240,136.93,127.19,9.74
+Wednesday,Bluedove,Lunch,Steamed rice,8240,107.02,94.44,12.58
+Wednesday,Bluedove,Lunch,Jeera rice,8240,769.37,714.63,54.74
+Wednesday,Bluedove,Lunch,Rajma masala,8240,247.58,229.97,17.61
+Wednesday,Bluedove,Lunch,Bhindi to pyaaz,8240,247.09,229.51,17.58
+Wednesday,Bluedove,Lunch,Dahi aloo,8240,263.17,244.45,18.72
+Wednesday,Bluedove,Lunch,Curd,8240,268.45,249.35,19.1
+Wednesday,Bluedove,Lunch,Fried chilli,8240,258.38,240.0,18.38
+Wednesday,Bluedove,Lunch,Garlic chutney,8240,131.36,122.01,9.35
+Wednesday,Bluedove,Lunch,Chapati,8240,746.02,692.94,53.08
+Wednesday,Bluedove,Lunch,Pastry,8240,248.09,230.44,17.65
+Wednesday,Bluedove,Hi-Tea,Bombay sandwich,2575,141.36,112.43,28.93
+Wednesday,Bluedove,Hi-Tea,Tea,2575,52.93,39.99,12.94
+Wednesday,Bluedove,Hi-Tea,Coffee,2575,53.77,40.63,13.14
+Wednesday,Bluedove,Hi-Tea,Milk,2575,57.93,43.77,14.16
+Wednesday,Bluedove,Dinner,Green salad,7725,172.01,159.08,12.93
+Wednesday,Bluedove,Dinner,Steamed Rice,7725,145.74,128.05,17.69
+Wednesday,Bluedove,Dinner,Mix Dal Tadka,7725,1117.01,1033.06,83.95
+Wednesday,Bluedove,Dinner,Palak paneer,7725,364.83,337.41,27.42
+Wednesday,Bluedove,Dinner,Tawa chicken,7725,352.47,325.98,26.49
+Wednesday,Bluedove,Dinner,Chapati,7725,1181.3,1092.52,88.78
+Thursday,Bluedove,Breakfast,Poori,2910,70.78,57.57,13.21
+Thursday,Bluedove,Breakfast,Aloo Bhaji,2910,72.55,59.01,13.54
+Thursday,Bluedove,Breakfast,Sheera,2910,71.55,58.2,13.35
+Thursday,Bluedove,Breakfast,Coleslaw,2910,67.32,54.76,12.56
+Thursday,Bluedove,Breakfast,Boiled Egg,2910,63.21,51.41,11.8
+Thursday,Bluedove,Breakfast,Banana,2910,33.5,27.25,6.25
+Thursday,Bluedove,Breakfast,Bread,2910,71.42,58.09,13.33
+Thursday,Bluedove,Breakfast,Butter,2910,72.51,58.98,13.53
+Thursday,Bluedove,Breakfast,Jam,2910,73.61,59.87,13.74
+Thursday,Bluedove,Breakfast,Flavoured Milk,2910,27.1,20.94,6.16
+Thursday,Bluedove,Breakfast,Tea,2910,28.54,22.05,6.49
+Thursday,Bluedove,Breakfast,Coffee,2910,27.66,21.37,6.29
+Thursday,Bluedove,Breakfast,Milk,2910,27.91,21.57,6.34
+Thursday,Bluedove,Lunch,Green salad,7760,111.49,100.7,10.79
+Thursday,Bluedove,Lunch,Steamed rice,7760,83.33,71.5,11.83
+Thursday,Bluedove,Lunch,Masala rice,7760,658.15,594.44,63.71
+Thursday,Bluedove,Lunch,Dal palak,7760,695.24,627.94,67.3
+Thursday,Bluedove,Lunch,Arbi matar,7760,221.84,200.37,21.47
+Thursday,Bluedove,Lunch,Soya keema,7760,213.22,192.58,20.64
+Thursday,Bluedove,Lunch,Boondi raita,7760,112.06,101.21,10.85
+Thursday,Bluedove,Lunch,Fried chilli,7760,211.87,191.36,20.51
+Thursday,Bluedove,Lunch,Garlic chutney,7760,114.85,103.73,11.12
+Thursday,Bluedove,Lunch,Chapati,7760,682.83,616.73,66.1
+Thursday,Bluedove,Lunch,Jalebi,7760,124.95,95.93,29.02
+Thursday,Bluedove,Hi-Tea,Poha,2425,124.56,100.28,24.28
+Thursday,Bluedove,Hi-Tea,Tea,2425,52.58,40.21,12.37
+Thursday,Bluedove,Hi-Tea,Coffee,2425,49.1,37.55,11.55
+Thursday,Bluedove,Hi-Tea,Milk,2425,51.89,39.69,12.2
+Thursday,Bluedove,Dinner,Green salad,7275,151.57,135.26,16.31
+Thursday,Bluedove,Dinner,Jeera Rice,7275,974.45,869.58,104.87
+Thursday,Bluedove,Dinner,Black Chana Lobiya masala,7275,305.76,272.85,32.91
+Thursday,Bluedove,Dinner,Veg kolhapur,7275,324.36,289.45,34.91
+Thursday,Bluedove,Dinner,Banarasi Dum Aloo,7275,328.34,293.0,35.34
+Thursday,Bluedove,Dinner,Garlic chutney,7275,149.71,133.6,16.11
+Thursday,Bluedove,Dinner,Chapati,7275,863.43,770.51,92.92
+Friday,Bluedove,Breakfast,Idli,3000,69.83,56.81,13.02
+Friday,Bluedove,Breakfast,Sambar,3000,63.1,51.33,11.77
+Friday,Bluedove,Breakfast,Sprouts,3000,66.21,53.86,12.35
+Friday,Bluedove,Breakfast,Coconut chutney,3000,33.78,27.48,6.3
+Friday,Bluedove,Breakfast,Corn flakes,3000,66.23,53.88,12.35
+Friday,Bluedove,Breakfast,Boiled eggs,3000,67.29,54.74,12.55
+Friday,Bluedove,Breakfast,Watermelon,3000,34.65,28.19,6.46
+Friday,Bluedove,Breakfast,Coleslaw,3000,61.55,50.07,11.48
+Friday,Bluedove,Breakfast,Bread,3000,59.69,48.56,11.13
+Friday,Bluedove,Breakfast,Butter,3000,61.06,49.67,11.39
+Friday,Bluedove,Breakfast,Jam,3000,60.79,49.45,11.34
+Friday,Bluedove,Breakfast,Flavoured milk,3000,26.56,20.53,6.03
+Friday,Bluedove,Breakfast,Tea,3000,26.13,20.19,5.94
+Friday,Bluedove,Breakfast,Coffee,3000,24.7,19.09,5.61
+Friday,Bluedove,Breakfast,Milk,3000,26.69,20.63,6.06
+Friday,Bluedove,Lunch,Green salad,8000,110.67,103.34,7.33
+Friday,Bluedove,Lunch,Moti rice,8000,713.33,666.06,47.27
+Friday,Bluedove,Lunch,Steamed rice,8000,97.22,86.24,10.98
+Friday,Bluedove,Lunch,Moong dal tadka,8000,658.05,614.44,43.61
+Friday,Bluedove,Lunch,Chana masala,8000,245.71,229.43,16.28
+Friday,Bluedove,Lunch,Khatta meetha kaddu,8000,251.15,234.51,16.64
+Friday,Bluedove,Lunch,Butter milk,8000,87.64,77.74,9.9
+Friday,Bluedove,Lunch,Fried chilli,8000,216.03,201.71,14.32
+Friday,Bluedove,Lunch,Garlic chutney,8000,113.37,105.86,7.51
+Friday,Bluedove,Lunch,Chapati,8000,689.7,643.99,45.71
+Friday,Bluedove,Lunch,Seviyan payasam,8000,145.09,115.15,29.94
+Friday,Bluedove,Hi-Tea,Mix veg pakoda,2500,140.52,99.14,41.38
+Friday,Bluedove,Hi-Tea,Tea,2500,55.66,41.45,14.21
+Friday,Bluedove,Hi-Tea,Coffee,2500,51.07,38.03,13.04
+Friday,Bluedove,Hi-Tea,Milk,2500,56.92,42.39,14.53
+Friday,Bluedove,Dinner,Green salad,7500,182.41,168.99,13.42
+Friday,Bluedove,Dinner,Steamed Rice,7500,134.91,118.74,16.17
+Friday,Bluedove,Dinner,Dal Palak,7500,1160.51,1075.16,85.35
+Friday,Bluedove,Dinner,Mutter paneer,7500,375.28,347.68,27.6
+Friday,Bluedove,Dinner,Butter chicken,7500,350.26,324.5,25.76
+Friday,Bluedove,Dinner,Chapati,7500,1054.82,977.24,77.58
+Saturday,Bluedove,Breakfast,Kulcha,2318,48.69,38.82,9.87
+Saturday,Bluedove,Breakfast,White mutter,2318,52.75,42.05,10.7
+Saturday,Bluedove,Breakfast,Rawa upma,2318,52.53,41.88,10.65
+Saturday,Bluedove,Breakfast,Green chutney,2318,23.4,18.66,4.74
+Saturday,Bluedove,Breakfast,Corn flakes,2318,53.64,42.76,10.88
+Saturday,Bluedove,Breakfast,Egg bhurji,2318,51.04,40.69,10.35
+Saturday,Bluedove,Breakfast,Banana,2318,26.29,20.96,5.33
+Saturday,Bluedove,Breakfast,Coleslaw,2318,51.61,41.15,10.46
+Saturday,Bluedove,Breakfast,Bread,2318,49.44,39.42,10.02
+Saturday,Bluedove,Breakfast,Butter,2318,51.83,41.32,10.51
+Saturday,Bluedove,Breakfast,Jam,2318,53.68,42.8,10.88
+Saturday,Bluedove,Breakfast,Flavoured milk,2318,19.25,14.58,4.67
+Saturday,Bluedove,Breakfast,Tea,2318,20.97,15.88,5.09
+Saturday,Bluedove,Breakfast,Coffee,2318,20.1,15.22,4.88
+Saturday,Bluedove,Breakfast,Milk,2318,19.93,15.09,4.84
+Saturday,Bluedove,Lunch,Green salad,7416,129.13,116.95,12.18
+Saturday,Bluedove,Lunch,Steamed rice,7416,95.93,82.53,13.4
+Saturday,Bluedove,Lunch,Tomato rice,7416,789.18,714.72,74.46
+Saturday,Bluedove,Lunch,Sambhar,7416,262.22,237.48,24.74
+Saturday,Bluedove,Lunch,Cabbage thoran,7416,232.57,210.63,21.94
+Saturday,Bluedove,Lunch,Aloo choka,7416,264.25,239.32,24.93
+Saturday,Bluedove,Lunch,Coconut chutney,7416,119.42,108.15,11.27
+Saturday,Bluedove,Lunch,Lemon water,7416,123.82,112.14,11.68
+Saturday,Bluedove,Lunch,Set Dosa,7416,253.44,229.53,23.91
+Saturday,Bluedove,Lunch,Chapati,7416,789.09,714.64,74.45
+Saturday,Bluedove,Lunch,Fruit custard,7416,118.18,90.97,27.21
+Saturday,Bluedove,Hi-Tea,Doughnut,1802,75.51,49.7,25.81
+Saturday,Bluedove,Hi-Tea,Tea,1802,46.83,34.45,12.38
+Saturday,Bluedove,Hi-Tea,Coffee,1802,50.98,37.5,13.48
+Saturday,Bluedove,Hi-Tea,Milk,1802,49.6,36.49,13.11
+Saturday,Bluedove,Dinner,Green salad,6566,108.92,95.85,13.07
+Saturday,Bluedove,Dinner,Moti Rice,6566,759.97,668.75,91.22
+Saturday,Bluedove,Dinner,Mix Moti Dal,6566,662.11,582.64,79.47
+Saturday,Bluedove,Dinner,Aloo Achari,6566,244.7,215.33,29.37
+Saturday,Bluedove,Dinner,Soya chaap masala,6566,235.94,207.62,28.32
+Saturday,Bluedove,Dinner,Garlic chutney,6566,123.07,108.3,14.77
+Saturday,Bluedove,Dinner,Chapati,6566,725.68,638.58,87.1
+Sunday,Bluedove,Breakfast,Chhole,2182,41.99,33.33,8.66
+Sunday,Bluedove,Breakfast,Bhature,2182,37.5,29.76,7.74
+Sunday,Bluedove,Breakfast,Masala Daliya,2182,114.97,91.25,23.72
+Sunday,Bluedove,Breakfast,Corn flakes,2182,41.34,32.81,8.53
+Sunday,Bluedove,Breakfast,Coleslaw,2182,38.87,30.85,8.02
+Sunday,Bluedove,Breakfast,Boiled eggs,2182,40.63,32.25,8.38
+Sunday,Bluedove,Breakfast,Banana,2182,19.97,15.85,4.12
+Sunday,Bluedove,Breakfast,Bread,2182,40.31,31.99,8.32
+Sunday,Bluedove,Breakfast,Butter,2182,39.63,31.45,8.18
+Sunday,Bluedove,Breakfast,Jam,2182,41.69,33.09,8.6
+Sunday,Bluedove,Breakfast,Flavoured milk,2182,15.61,11.77,3.84
+Sunday,Bluedove,Breakfast,Tea,2182,16.56,12.49,4.07
+Sunday,Bluedove,Breakfast,Coffee,2182,15.46,11.66,3.8
+Sunday,Bluedove,Breakfast,Milk,2182,15.41,11.62,3.79
+Sunday,Bluedove,Lunch,Green salad,6984,95.83,84.83,11.0
+Sunday,Bluedove,Lunch,Steamed Rice,6984,82.1,69.04,13.06
+Sunday,Bluedove,Lunch,Fried Rice,6984,637.92,564.71,73.21
+Sunday,Bluedove,Lunch,Gobhi Manchurian,6984,193.8,171.56,22.24
+Sunday,Bluedove,Lunch,Dal Methi,6984,584.45,517.38,67.07
+Sunday,Bluedove,Lunch,Hing Kadhi,6984,203.56,180.2,23.36
+Sunday,Bluedove,Lunch,Sweet Lassi,6984,84.56,71.11,13.45
+Sunday,Bluedove,Lunch,Fried chilli,6984,219.64,194.43,25.21
+Sunday,Bluedove,Lunch,Garlic chutney,6984,102.44,90.68,11.76
+Sunday,Bluedove,Lunch,Chapati,6984,582.27,515.45,66.82
+Sunday,Bluedove,Lunch,Besan Burfi,6984,117.11,88.12,28.99
+Sunday,Bluedove,Hi-Tea,Samosa,1697,85.37,59.22,26.15
+Sunday,Bluedove,Hi-Tea,Tea,1697,37.23,27.26,9.97
+Sunday,Bluedove,Hi-Tea,Coffee,1697,35.69,26.13,9.56
+Sunday,Bluedove,Hi-Tea,Milk,1697,39.84,29.17,10.67
+Sunday,Bluedove,Dinner,Green salad,6184,151.09,133.56,17.53
+Sunday,Bluedove,Dinner,Veg paneer Biryani,6184,275.41,243.46,31.95
+Sunday,Bluedove,Dinner,Dal fry,6184,930.59,822.62,107.97
+Sunday,Bluedove,Dinner,Chicken Biryani,6184,292.5,258.56,33.94
+Sunday,Bluedove,Dinner,Boondi Raita,6184,155.2,137.19,18.01
+Sunday,Bluedove,Dinner,Chapati,6184,874.48,773.02,101.46
+Monday,Bluedove,Breakfast,Medu Vada,2910,59.55,48.09,11.46
+Monday,Bluedove,Breakfast,Sambar,2910,58.21,47.01,11.2
+Monday,Bluedove,Breakfast,Masala Oats,2910,67.14,54.22,12.92
+Monday,Bluedove,Breakfast,Corn flakes,2910,62.49,50.46,12.03
+Monday,Bluedove,Breakfast,Coleslaw,2910,65.95,53.26,12.69
+Monday,Bluedove,Breakfast,Coconut chutney,2910,30.86,24.92,5.94
+Monday,Bluedove,Breakfast,Boiled eggs,2910,58.44,47.19,11.25
+Monday,Bluedove,Breakfast,Banana,2910,32.01,25.85,6.16
+Monday,Bluedove,Breakfast,Bread,2910,58.24,47.03,11.21
+Monday,Bluedove,Breakfast,Butter,2910,59.2,47.81,11.39
+Monday,Bluedove,Breakfast,Jam,2910,63.35,51.16,12.19
+Monday,Bluedove,Breakfast,Flavoured milk,2910,24.3,18.64,5.66
+Monday,Bluedove,Breakfast,Tea,2910,27.07,20.77,6.3
+Monday,Bluedove,Breakfast,Coffee,2910,23.55,18.07,5.48
+Monday,Bluedove,Breakfast,Milk,2910,26.15,20.06,6.09
+Monday,Bluedove,Lunch,Green salad,7760,115.65,106.51,9.14
+Monday,Bluedove,Lunch,Jeera rice,7760,633.94,583.87,50.07
+Monday,Bluedove,Lunch,Steamed rice,7760,88.72,77.63,11.09
+Monday,Bluedove,Lunch,Dal tadka,7760,657.79,605.83,51.96
+Monday,Bluedove,Lunch,Gatta curry,7760,218.99,201.69,17.3
+Monday,Bluedove,Lunch,Tawa veg masala,7760,233.75,215.29,18.46
+Monday,Bluedove,Lunch,Rasna,7760,95.34,83.42,11.92
+Monday,Bluedove,Lunch,Fried chilli,7760,214.13,197.22,16.91
+Monday,Bluedove,Lunch,Garlic chutney,7760,112.65,103.75,8.9
+Monday,Bluedove,Lunch,Chapati,7760,710.52,654.4,56.12
+Monday,Bluedove,Lunch,Balushahi,7760,210.68,194.04,16.64
+Monday,Bluedove,Hi-Tea,Macaroni,2425,135.67,106.87,28.8
+Monday,Bluedove,Hi-Tea,Tea,2425,50.01,37.42,12.59
+Monday,Bluedove,Hi-Tea,Coffee,2425,50.15,37.53,12.62
+Monday,Bluedove,Hi-Tea,Milk,2425,49.31,36.9,12.41
+Monday,Bluedove,Dinner,Green salad,7275,172.76,152.52,20.24
+Monday,Bluedove,Dinner,Steamed Rice,7275,141.4,118.6,22.8
+Monday,Bluedove,Dinner,Black masoor Dal,7275,1009.92,891.63,118.29
+Monday,Bluedove,Dinner,Veg kofta curry,7275,333.31,294.27,39.04
+Monday,Bluedove,Dinner,Egg Keema curry,7275,359.8,317.66,42.14
+Monday,Bluedove,Dinner,Chapati,7275,1037.13,915.65,121.48
+Tuesday,Bluedove,Breakfast,Aloo Paratha,3000,66.19,54.25,11.94
+Tuesday,Bluedove,Breakfast,Curd,3000,64.84,53.14,11.7
+Tuesday,Bluedove,Breakfast,Masala poha,3000,63.22,51.81,11.41
+Tuesday,Bluedove,Breakfast,Green chutney,3000,31.79,26.05,5.74
+Tuesday,Bluedove,Breakfast,Corn flakes,3000,66.28,54.32,11.96
+Tuesday,Bluedove,Breakfast,Coleslaw,3000,61.24,50.19,11.05
+Tuesday,Bluedove,Breakfast,Boiled eggs,3000,62.43,51.17,11.26
+Tuesday,Bluedove,Breakfast,Banana,3000,31.72,26.0,5.72
+Tuesday,Bluedove,Breakfast,Bread,3000,66.03,54.12,11.91
+Tuesday,Bluedove,Breakfast,Butter,3000,65.22,53.45,11.77
+Tuesday,Bluedove,Breakfast,Jam,3000,57.73,47.31,10.42
+Tuesday,Bluedove,Breakfast,Flavoured milk,3000,23.47,18.27,5.2
+Tuesday,Bluedove,Breakfast,Tea,3000,24.03,18.71,5.32
+Tuesday,Bluedove,Breakfast,Coffee,3000,25.78,20.07,5.71
+Tuesday,Bluedove,Breakfast,Milk,3000,25.07,19.52,5.55
+Tuesday,Bluedove,Lunch,Green salad,8000,119.63,108.14,11.49
+Tuesday,Bluedove,Lunch,Steamed rice,8000,95.87,82.33,13.54
+Tuesday,Bluedove,Lunch,Masala rice,8000,746.13,674.48,71.65
+Tuesday,Bluedove,Lunch,Kadhi pakoda,8000,232.28,188.98,43.3
+Tuesday,Bluedove,Lunch,Lauki tamatar,8000,232.03,209.75,22.28
+Tuesday,Bluedove,Lunch,Chana dal tadka,8000,650.0,587.59,62.41
+Tuesday,Bluedove,Lunch,Lemon water,8000,107.58,97.25,10.33
+Tuesday,Bluedove,Lunch,Fried chilli,8000,229.73,207.67,22.06
+Tuesday,Bluedove,Lunch,Garlic chutney,8000,112.83,102.0,10.83
+Tuesday,Bluedove,Lunch,Chapati,8000,748.27,676.42,71.85
+Tuesday,Bluedove,Lunch,Sooji ka halwa,8000,146.85,112.84,34.01
+Tuesday,Bluedove,Hi-Tea,Banana cake,2500,94.6,64.65,29.95
+Tuesday,Bluedove,Hi-Tea,Tea,2500,76.23,58.22,18.01
+Tuesday,Bluedove,Hi-Tea,Coffee,2500,72.53,55.4,17.13
+Tuesday,Bluedove,Hi-Tea,Milk,2500,67.99,51.93,16.06
+Tuesday,Bluedove,Dinner,Green salad,7500,140.54,124.99,15.55
+Tuesday,Bluedove,Dinner,Tomato Rice,7500,806.18,717.01,89.17
+Tuesday,Bluedove,Dinner,Dal makhani,7500,829.64,737.87,91.77
+Tuesday,Bluedove,Dinner,Mangodi papad,7500,287.97,256.12,31.85
+Tuesday,Bluedove,Dinner,Aloo Gobhi masala,7500,256.24,227.9,28.34
+Tuesday,Bluedove,Dinner,Garlic chutney,7500,136.84,121.7,15.14
+Tuesday,Bluedove,Dinner,Chapati,7500,808.93,719.45,89.48
+Wednesday,Bluedove,Breakfast,Pasta,3090,71.1,56.68,14.42
+Wednesday,Bluedove,Breakfast,Seviyan upma,3090,70.93,56.54,14.39
+Wednesday,Bluedove,Breakfast,Green chutney,3090,37.43,29.84,7.59
+Wednesday,Bluedove,Breakfast,Corn flakes,3090,77.05,61.42,15.63
+Wednesday,Bluedove,Breakfast,Coleslaw,3090,70.89,56.51,14.38
+Wednesday,Bluedove,Breakfast,Boiled eggs,3090,75.14,59.9,15.24
+Wednesday,Bluedove,Breakfast,Watermelon,3090,35.2,28.06,7.14
+Wednesday,Bluedove,Breakfast,Bread,3090,78.07,62.24,15.83
+Wednesday,Bluedove,Breakfast,Butter,3090,76.53,61.01,15.52
+Wednesday,Bluedove,Breakfast,Jam,3090,73.46,58.56,14.9
+Wednesday,Bluedove,Breakfast,Flavoured milk,3090,28.94,21.92,7.02
+Wednesday,Bluedove,Breakfast,Tea,3090,28.29,21.42,6.87
+Wednesday,Bluedove,Breakfast,Coffee,3090,28.33,21.45,6.88
+Wednesday,Bluedove,Breakfast,Milk,3090,31.34,23.73,7.61
+Wednesday,Bluedove,Lunch,Green salad,8240,129.05,119.0,10.05
+Wednesday,Bluedove,Lunch,Steamed rice,8240,111.04,97.28,13.76
+Wednesday,Bluedove,Lunch,Jeera rice,8240,791.99,730.34,61.65
+Wednesday,Bluedove,Lunch,Rajma masala,8240,259.25,239.07,20.18
+Wednesday,Bluedove,Lunch,Bhindi to pyaaz,8240,253.93,234.16,19.77
+Wednesday,Bluedove,Lunch,Dahi aloo,8240,244.63,225.59,19.04
+Wednesday,Bluedove,Lunch,Curd,8240,251.81,232.21,19.6
+Wednesday,Bluedove,Lunch,Fried chilli,8240,268.07,247.2,20.87
+Wednesday,Bluedove,Lunch,Garlic chutney,8240,131.33,121.11,10.22
+Wednesday,Bluedove,Lunch,Chapati,8240,778.58,717.98,60.6
+Wednesday,Bluedove,Lunch,Pastry,8240,275.12,253.71,21.41
+Wednesday,Bluedove,Hi-Tea,Bombay sandwich,2575,144.91,115.95,28.96
+Wednesday,Bluedove,Hi-Tea,Tea,2575,52.78,40.12,12.66
+Wednesday,Bluedove,Hi-Tea,Coffee,2575,60.43,45.93,14.5
+Wednesday,Bluedove,Hi-Tea,Milk,2575,57.16,43.45,13.71
+Wednesday,Bluedove,Dinner,Green salad,7725,174.8,157.91,16.89
+Wednesday,Bluedove,Dinner,Steamed Rice,7725,149.13,127.98,21.15
+Wednesday,Bluedove,Dinner,Mix Dal Tadka,7725,1118.72,1010.61,108.11
+Wednesday,Bluedove,Dinner,Palak paneer,7725,345.74,312.33,33.41
+Wednesday,Bluedove,Dinner,Tawa chicken,7725,398.94,360.39,38.55
+Wednesday,Bluedove,Dinner,Chapati,7725,1102.6,996.04,106.56
+Thursday,Bluedove,Breakfast,Poori,2910,72.28,57.42,14.86
+Thursday,Bluedove,Breakfast,Aloo Bhaji,2910,68.61,54.5,14.11
+Thursday,Bluedove,Breakfast,Sheera,2910,71.01,56.41,14.6
+Thursday,Bluedove,Breakfast,Coleslaw,2910,68.73,54.6,14.13
+Thursday,Bluedove,Breakfast,Boiled Egg,2910,66.14,52.54,13.6
+Thursday,Bluedove,Breakfast,Banana,2910,36.15,28.72,7.43
+Thursday,Bluedove,Breakfast,Bread,2910,73.91,58.71,15.2
+Thursday,Bluedove,Breakfast,Butter,2910,65.82,52.29,13.53
+Thursday,Bluedove,Breakfast,Jam,2910,69.2,54.97,14.23
+Thursday,Bluedove,Breakfast,Flavoured Milk,2910,26.94,20.33,6.61
+Thursday,Bluedove,Breakfast,Tea,2910,29.31,22.12,7.19
+Thursday,Bluedove,Breakfast,Coffee,2910,27.49,20.75,6.74
+Thursday,Bluedove,Breakfast,Milk,2910,29.12,21.98,7.14
+Thursday,Bluedove,Lunch,Green salad,7760,117.87,106.77,11.1
+Thursday,Bluedove,Lunch,Steamed rice,7760,88.89,76.49,12.4
+Thursday,Bluedove,Lunch,Masala rice,7760,722.83,654.75,68.08
+Thursday,Bluedove,Lunch,Dal palak,7760,676.71,612.97,63.74
+Thursday,Bluedove,Lunch,Arbi matar,7760,236.84,214.53,22.31
+Thursday,Bluedove,Lunch,Soya keema,7760,217.46,196.98,20.48
+Thursday,Bluedove,Lunch,Boondi raita,7760,109.01,98.74,10.27
+Thursday,Bluedove,Lunch,Fried chilli,7760,228.42,206.91,21.51
+Thursday,Bluedove,Lunch,Garlic chutney,7760,121.64,110.18,11.46
+Thursday,Bluedove,Lunch,Chapati,7760,680.04,615.99,64.05
+Thursday,Bluedove,Lunch,Jalebi,7760,131.82,101.49,30.33
+Thursday,Bluedove,Hi-Tea,Poha,2425,133.19,106.74,26.45
+Thursday,Bluedove,Hi-Tea,Tea,2425,52.53,39.99,12.54
+Thursday,Bluedove,Hi-Tea,Coffee,2425,51.4,39.13,12.27
+Thursday,Bluedove,Hi-Tea,Milk,2425,50.27,38.27,12.0
+Thursday,Bluedove,Dinner,Green salad,7275,157.68,144.2,13.48
+Thursday,Bluedove,Dinner,Jeera Rice,7275,895.48,818.9,76.58
+Thursday,Bluedove,Dinner,Black Chana Lobiya masala,7275,325.53,297.69,27.84
+Thursday,Bluedove,Dinner,Veg kolhapur,7275,289.02,264.3,24.72
+Thursday,Bluedove,Dinner,Banarasi Dum Aloo,7275,323.99,296.28,27.71
+Thursday,Bluedove,Dinner,Garlic chutney,7275,161.01,147.24,13.77
+Thursday,Bluedove,Dinner,Chapati,7275,918.31,839.78,78.53
+Friday,Bluedove,Breakfast,Idli,3000,67.97,55.64,12.33
+Friday,Bluedove,Breakfast,Sambar,3000,69.63,57.0,12.63
+Friday,Bluedove,Breakfast,Sprouts,3000,64.61,52.89,11.72
+Friday,Bluedove,Breakfast,Coconut chutney,3000,29.93,24.5,5.43
+Friday,Bluedove,Breakfast,Corn flakes,3000,64.68,52.95,11.73
+Friday,Bluedove,Breakfast,Boiled eggs,3000,65.59,53.69,11.9
+Friday,Bluedove,Breakfast,Watermelon,3000,34.24,28.03,6.21
+Friday,Bluedove,Breakfast,Coleslaw,3000,68.53,56.1,12.43
+Friday,Bluedove,Breakfast,Bread,3000,64.04,52.42,11.62
+Friday,Bluedove,Breakfast,Butter,3000,64.92,53.14,11.78
+Friday,Bluedove,Breakfast,Jam,3000,64.21,52.56,11.65
+Friday,Bluedove,Breakfast,Flavoured milk,3000,26.78,20.83,5.95
+Friday,Bluedove,Breakfast,Tea,3000,25.49,19.82,5.67
+Friday,Bluedove,Breakfast,Coffee,3000,26.5,20.61,5.89
+Friday,Bluedove,Breakfast,Milk,3000,24.43,19.0,5.43
+Friday,Bluedove,Lunch,Green salad,8000,125.66,115.6,10.06
+Friday,Bluedove,Lunch,Moti rice,8000,683.18,628.5,54.68
+Friday,Bluedove,Lunch,Steamed rice,8000,96.39,84.24,12.15
+Friday,Bluedove,Lunch,Moong dal tadka,8000,718.11,660.63,57.48
+Friday,Bluedove,Lunch,Chana masala,8000,246.92,227.16,19.76
+Friday,Bluedove,Lunch,Khatta meetha kaddu,8000,246.94,227.17,19.77
+Friday,Bluedove,Lunch,Butter milk,8000,98.88,86.42,12.46
+Friday,Bluedove,Lunch,Fried chilli,8000,229.28,210.93,18.35
+Friday,Bluedove,Lunch,Garlic chutney,8000,113.45,104.37,9.08
+Friday,Bluedove,Lunch,Chapati,8000,743.08,683.6,59.48
+Friday,Bluedove,Lunch,Seviyan payasam,8000,129.84,101.53,28.31
+Friday,Bluedove,Hi-Tea,Mix veg pakoda,2500,139.23,98.19,41.04
+Friday,Bluedove,Hi-Tea,Tea,2500,58.22,43.34,14.88
+Friday,Bluedove,Hi-Tea,Coffee,2500,58.89,43.84,15.05
+Friday,Bluedove,Hi-Tea,Milk,2500,56.7,42.21,14.49
+Friday,Bluedove,Dinner,Green salad,7500,167.99,152.43,15.56
+Friday,Bluedove,Dinner,Steamed Rice,7500,146.69,126.45,20.24
+Friday,Bluedove,Dinner,Dal Palak,7500,1141.34,1035.66,105.68
+Friday,Bluedove,Dinner,Mutter paneer,7500,355.81,322.86,32.95
+Friday,Bluedove,Dinner,Butter chicken,7500,370.19,335.91,34.28
+Friday,Bluedove,Dinner,Chapati,7500,998.88,906.39,92.49
+Saturday,Bluedove,Breakfast,Kulcha,2318,48.31,39.08,9.23
+Saturday,Bluedove,Breakfast,White mutter,2318,48.96,39.6,9.36
+Saturday,Bluedove,Breakfast,Rawa upma,2318,47.12,38.11,9.01
+Saturday,Bluedove,Breakfast,Green chutney,2318,25.1,20.3,4.8
+Saturday,Bluedove,Breakfast,Corn flakes,2318,50.48,40.83,9.65
+Saturday,Bluedove,Breakfast,Egg bhurji,2318,52.3,42.3,10.0
+Saturday,Bluedove,Breakfast,Banana,2318,23.66,19.14,4.52
+Saturday,Bluedove,Breakfast,Coleslaw,2318,46.59,37.68,8.91
+Saturday,Bluedove,Breakfast,Bread,2318,52.92,42.8,10.12
+Saturday,Bluedove,Breakfast,Butter,2318,50.91,41.18,9.73
+Saturday,Bluedove,Breakfast,Jam,2318,47.89,38.74,9.15
+Saturday,Bluedove,Breakfast,Flavoured milk,2318,21.3,16.37,4.93
+Saturday,Bluedove,Breakfast,Tea,2318,18.84,14.48,4.36
+Saturday,Bluedove,Breakfast,Coffee,2318,19.86,15.26,4.6
+Saturday,Bluedove,Breakfast,Milk,2318,19.2,14.75,4.45
+Saturday,Bluedove,Lunch,Green salad,7416,114.75,102.98,11.77
+Saturday,Bluedove,Lunch,Steamed rice,7416,104.47,89.07,15.4
+Saturday,Bluedove,Lunch,Tomato rice,7416,795.1,713.53,81.57
+Saturday,Bluedove,Lunch,Sambhar,7416,256.12,229.85,26.27
+Saturday,Bluedove,Lunch,Cabbage thoran,7416,235.42,211.27,24.15
+Saturday,Bluedove,Lunch,Aloo choka,7416,246.72,221.41,25.31
+Saturday,Bluedove,Lunch,Coconut chutney,7416,121.45,108.99,12.46
+Saturday,Bluedove,Lunch,Lemon water,7416,126.27,113.32,12.95
+Saturday,Bluedove,Lunch,Set Dosa,7416,254.58,228.46,26.12
+Saturday,Bluedove,Lunch,Chapati,7416,788.41,707.53,80.88
+Saturday,Bluedove,Lunch,Fruit custard,7416,118.53,90.42,28.11
+Saturday,Bluedove,Hi-Tea,Doughnut,1802,71.89,47.73,24.16
+Saturday,Bluedove,Hi-Tea,Tea,1802,46.03,34.16,11.87
+Saturday,Bluedove,Hi-Tea,Coffee,1802,48.61,36.07,12.54
+Saturday,Bluedove,Hi-Tea,Milk,1802,48.63,36.09,12.54
+Saturday,Bluedove,Dinner,Green salad,6566,114.32,104.26,10.06
+Saturday,Bluedove,Dinner,Moti Rice,6566,763.36,696.2,67.16
+Saturday,Bluedove,Dinner,Mix Moti Dal,6566,727.08,663.11,63.97
+Saturday,Bluedove,Dinner,Aloo Achari,6566,227.85,207.8,20.05
+Saturday,Bluedove,Dinner,Soya chaap masala,6566,238.87,217.85,21.02
+Saturday,Bluedove,Dinner,Garlic chutney,6566,121.7,110.99,10.71
+Saturday,Bluedove,Dinner,Chapati,6566,657.96,600.07,57.89
+Sunday,Bluedove,Breakfast,Chhole,2182,40.09,32.0,8.09
+Sunday,Bluedove,Breakfast,Bhature,2182,42.7,34.09,8.61
+Sunday,Bluedove,Breakfast,Masala Daliya,2182,116.21,92.77,23.44
+Sunday,Bluedove,Breakfast,Corn flakes,2182,42.03,33.55,8.48
+Sunday,Bluedove,Breakfast,Coleslaw,2182,40.8,32.57,8.23
+Sunday,Bluedove,Breakfast,Boiled eggs,2182,39.16,31.26,7.9
+Sunday,Bluedove,Breakfast,Banana,2182,20.49,16.36,4.13
+Sunday,Bluedove,Breakfast,Bread,2182,40.89,32.64,8.25
+Sunday,Bluedove,Breakfast,Butter,2182,41.25,32.93,8.32
+Sunday,Bluedove,Breakfast,Jam,2182,41.53,33.15,8.38
+Sunday,Bluedove,Breakfast,Flavoured milk,2182,16.45,12.47,3.98
+Sunday,Bluedove,Breakfast,Tea,2182,16.91,12.82,4.09
+Sunday,Bluedove,Breakfast,Coffee,2182,16.37,12.41,3.96
+Sunday,Bluedove,Breakfast,Milk,2182,17.08,12.95,4.13
+Sunday,Bluedove,Lunch,Green salad,6984,101.07,90.0,11.07
+Sunday,Bluedove,Lunch,Steamed Rice,6984,82.67,69.94,12.73
+Sunday,Bluedove,Lunch,Fried Rice,6984,635.0,565.47,69.53
+Sunday,Bluedove,Lunch,Gobhi Manchurian,6984,190.69,169.81,20.88
+Sunday,Bluedove,Lunch,Dal Methi,6984,592.16,527.32,64.84
+Sunday,Bluedove,Lunch,Hing Kadhi,6984,212.16,188.93,23.23
+Sunday,Bluedove,Lunch,Sweet Lassi,6984,77.39,65.47,11.92
+Sunday,Bluedove,Lunch,Fried chilli,6984,192.07,171.04,21.03
+Sunday,Bluedove,Lunch,Garlic chutney,6984,102.68,91.44,11.24
+Sunday,Bluedove,Lunch,Chapati,6984,652.74,581.26,71.48
+Sunday,Bluedove,Lunch,Besan Burfi,6984,128.92,97.58,31.34
+Sunday,Bluedove,Hi-Tea,Samosa,1697,97.37,67.81,29.56
+Sunday,Bluedove,Hi-Tea,Tea,1697,36.92,27.14,9.78
+Sunday,Bluedove,Hi-Tea,Coffee,1697,38.84,28.55,10.29
+Sunday,Bluedove,Hi-Tea,Milk,1697,38.49,28.3,10.19
+Sunday,Bluedove,Dinner,Green salad,6184,137.45,120.2,17.25
+Sunday,Bluedove,Dinner,Veg paneer Biryani,6184,314.62,275.13,39.49
+Sunday,Bluedove,Dinner,Dal fry,6184,828.27,724.3,103.97
+Sunday,Bluedove,Dinner,Chicken Biryani,6184,314.79,275.28,39.51
+Sunday,Bluedove,Dinner,Boondi Raita,6184,154.9,135.46,19.44
+Sunday,Bluedove,Dinner,Chapati,6184,946.26,827.48,118.78
+Monday,Bluedove,Breakfast,Medu Vada,2910,65.77,54.52,11.25
+Monday,Bluedove,Breakfast,Sambar,2910,61.37,50.87,10.5
+Monday,Bluedove,Breakfast,Masala Oats,2910,65.63,54.41,11.22
+Monday,Bluedove,Breakfast,Corn flakes,2910,57.84,47.95,9.89
+Monday,Bluedove,Breakfast,Coleslaw,2910,63.08,52.29,10.79
+Monday,Bluedove,Breakfast,Coconut chutney,2910,31.13,25.81,5.32
+Monday,Bluedove,Breakfast,Boiled eggs,2910,64.45,53.43,11.02
+Monday,Bluedove,Breakfast,Banana,2910,32.22,26.71,5.51
+Monday,Bluedove,Breakfast,Bread,2910,63.56,52.69,10.87
+Monday,Bluedove,Breakfast,Butter,2910,65.95,54.67,11.28
+Monday,Bluedove,Breakfast,Jam,2910,67.13,55.65,11.48
+Monday,Bluedove,Breakfast,Flavoured milk,2910,23.51,18.51,5.0
+Monday,Bluedove,Breakfast,Tea,2910,24.02,18.92,5.1
+Monday,Bluedove,Breakfast,Coffee,2910,23.18,18.25,4.93
+Monday,Bluedove,Breakfast,Milk,2910,26.63,20.97,5.66
+Monday,Bluedove,Lunch,Green salad,7760,117.85,108.3,9.55
+Monday,Bluedove,Lunch,Jeera rice,7760,633.48,582.13,51.35
+Monday,Bluedove,Lunch,Steamed rice,7760,82.23,71.79,10.44
+Monday,Bluedove,Lunch,Dal tadka,7760,697.39,640.86,56.53
+Monday,Bluedove,Lunch,Gatta curry,7760,235.49,216.4,19.09
+Monday,Bluedove,Lunch,Tawa veg masala,7760,214.02,196.67,17.35
+Monday,Bluedove,Lunch,Rasna,7760,87.11,76.05,11.06
+Monday,Bluedove,Lunch,Fried chilli,7760,208.27,191.39,16.88
+Monday,Bluedove,Lunch,Garlic chutney,7760,118.4,108.8,9.6
+Monday,Bluedove,Lunch,Chapati,7760,620.31,570.03,50.28
+Monday,Bluedove,Lunch,Balushahi,7760,234.71,215.69,19.02
+Monday,Bluedove,Hi-Tea,Macaroni,2425,131.29,103.02,28.27
+Monday,Bluedove,Hi-Tea,Tea,2425,54.35,40.52,13.83
+Monday,Bluedove,Hi-Tea,Coffee,2425,54.97,40.98,13.99
+Monday,Bluedove,Hi-Tea,Milk,2425,56.68,42.25,14.43
+Monday,Bluedove,Dinner,Green salad,7275,180.89,163.13,17.76
+Monday,Bluedove,Dinner,Steamed Rice,7275,131.61,112.75,18.86
+Monday,Bluedove,Dinner,Black masoor Dal,7275,1030.59,929.41,101.18
+Monday,Bluedove,Dinner,Veg kofta curry,7275,325.93,293.93,32.0
+Monday,Bluedove,Dinner,Egg Keema curry,7275,347.68,313.54,34.14
+Monday,Bluedove,Dinner,Chapati,7275,1120.29,1010.3,109.99
+Tuesday,Bluedove,Breakfast,Aloo Paratha,3000,60.7,48.13,12.57
+Tuesday,Bluedove,Breakfast,Curd,3000,61.42,48.7,12.72
+Tuesday,Bluedove,Breakfast,Masala poha,3000,66.45,52.69,13.76
+Tuesday,Bluedove,Breakfast,Green chutney,3000,32.75,25.97,6.78
+Tuesday,Bluedove,Breakfast,Corn flakes,3000,58.01,45.99,12.02
+Tuesday,Bluedove,Breakfast,Coleslaw,3000,63.82,50.6,13.22
+Tuesday,Bluedove,Breakfast,Boiled eggs,3000,62.42,49.49,12.93
+Tuesday,Bluedove,Breakfast,Banana,3000,33.36,26.45,6.91
+Tuesday,Bluedove,Breakfast,Bread,3000,60.58,48.03,12.55
+Tuesday,Bluedove,Breakfast,Butter,3000,60.97,48.34,12.63
+Tuesday,Bluedove,Breakfast,Jam,3000,58.91,46.71,12.2
+Tuesday,Bluedove,Breakfast,Flavoured milk,3000,23.29,17.54,5.75
+Tuesday,Bluedove,Breakfast,Tea,3000,26.17,19.71,6.46
+Tuesday,Bluedove,Breakfast,Coffee,3000,24.61,18.54,6.07
+Tuesday,Bluedove,Breakfast,Milk,3000,25.44,19.16,6.28
+Tuesday,Bluedove,Lunch,Green salad,8000,107.24,99.29,7.95
+Tuesday,Bluedove,Lunch,Steamed rice,8000,97.17,85.47,11.7
+Tuesday,Bluedove,Lunch,Masala rice,8000,668.19,618.66,49.53
+Tuesday,Bluedove,Lunch,Kadhi pakoda,8000,218.36,181.96,36.4
+Tuesday,Bluedove,Lunch,Lauki tamatar,8000,234.66,217.26,17.4
+Tuesday,Bluedove,Lunch,Chana dal tadka,8000,648.68,600.59,48.09
+Tuesday,Bluedove,Lunch,Lemon water,8000,121.06,112.09,8.97
+Tuesday,Bluedove,Lunch,Fried chilli,8000,221.38,204.97,16.41
+Tuesday,Bluedove,Lunch,Garlic chutney,8000,110.85,102.63,8.22
+Tuesday,Bluedove,Lunch,Chapati,8000,657.48,608.74,48.74
+Tuesday,Bluedove,Lunch,Sooji ka halwa,8000,148.29,116.7,31.59
+Tuesday,Bluedove,Hi-Tea,Banana cake,2500,93.3,61.93,31.37
+Tuesday,Bluedove,Hi-Tea,Tea,2500,66.58,49.4,17.18
+Tuesday,Bluedove,Hi-Tea,Coffee,2500,66.41,49.27,17.14
+Tuesday,Bluedove,Hi-Tea,Milk,2500,67.77,50.28,17.49
+Tuesday,Bluedove,Dinner,Green salad,7500,138.48,124.01,14.47
+Tuesday,Bluedove,Dinner,Tomato Rice,7500,748.54,670.34,78.2
+Tuesday,Bluedove,Dinner,Dal makhani,7500,747.13,669.08,78.05
+Tuesday,Bluedove,Dinner,Mangodi papad,7500,282.53,253.02,29.51
+Tuesday,Bluedove,Dinner,Aloo Gobhi masala,7500,258.68,231.66,27.02
+Tuesday,Bluedove,Dinner,Garlic chutney,7500,131.19,117.49,13.7
+Tuesday,Bluedove,Dinner,Chapati,7500,751.99,673.43,78.56
+Wednesday,Bluedove,Breakfast,Pasta,3090,73.18,60.28,12.9
+Wednesday,Bluedove,Breakfast,Seviyan upma,3090,75.74,62.39,13.35
+Wednesday,Bluedove,Breakfast,Green chutney,3090,36.3,29.9,6.4
+Wednesday,Bluedove,Breakfast,Corn flakes,3090,76.12,62.71,13.41
+Wednesday,Bluedove,Breakfast,Coleslaw,3090,73.03,60.16,12.87
+Wednesday,Bluedove,Breakfast,Boiled eggs,3090,68.32,56.28,12.04
+Wednesday,Bluedove,Breakfast,Watermelon,3090,36.46,30.03,6.43
+Wednesday,Bluedove,Breakfast,Bread,3090,78.07,64.31,13.76
+Wednesday,Bluedove,Breakfast,Butter,3090,67.55,55.65,11.9
+Wednesday,Bluedove,Breakfast,Jam,3090,76.18,62.76,13.42
+Wednesday,Bluedove,Breakfast,Flavoured milk,3090,30.86,24.15,6.71
+Wednesday,Bluedove,Breakfast,Tea,3090,29.25,22.89,6.36
+Wednesday,Bluedove,Breakfast,Coffee,3090,28.96,22.66,6.3
+Wednesday,Bluedove,Breakfast,Milk,3090,31.32,24.51,6.81
+Wednesday,Bluedove,Lunch,Green salad,8240,128.32,116.28,12.04
+Wednesday,Bluedove,Lunch,Steamed rice,8240,101.38,87.27,14.11
+Wednesday,Bluedove,Lunch,Jeera rice,8240,795.5,720.86,74.64
+Wednesday,Bluedove,Lunch,Rajma masala,8240,257.1,232.98,24.12
+Wednesday,Bluedove,Lunch,Bhindi to pyaaz,8240,274.38,248.64,25.74
+Wednesday,Bluedove,Lunch,Dahi aloo,8240,239.93,217.42,22.51
+Wednesday,Bluedove,Lunch,Curd,8240,240.23,217.69,22.54
+Wednesday,Bluedove,Lunch,Fried chilli,8240,261.96,237.38,24.58
+Wednesday,Bluedove,Lunch,Garlic chutney,8240,119.8,108.56,11.24
+Wednesday,Bluedove,Lunch,Chapati,8240,778.48,705.44,73.04
+Wednesday,Bluedove,Lunch,Pastry,8240,250.3,226.82,23.48
+Wednesday,Bluedove,Hi-Tea,Bombay sandwich,2575,141.14,116.1,25.04
+Wednesday,Bluedove,Hi-Tea,Tea,2575,55.77,43.58,12.19
+Wednesday,Bluedove,Hi-Tea,Coffee,2575,57.13,44.64,12.49
+Wednesday,Bluedove,Hi-Tea,Milk,2575,52.58,41.09,11.49
+Wednesday,Bluedove,Dinner,Green salad,7725,195.34,180.62,14.72
+Wednesday,Bluedove,Dinner,Steamed Rice,7725,151.5,133.08,18.42
+Wednesday,Bluedove,Dinner,Mix Dal Tadka,7725,1157.19,1069.97,87.22
+Wednesday,Bluedove,Dinner,Palak paneer,7725,382.88,354.02,28.86
+Wednesday,Bluedove,Dinner,Tawa chicken,7725,352.95,326.35,26.6
+Wednesday,Bluedove,Dinner,Chapati,7725,1061.25,981.27,79.98
+Thursday,Bluedove,Breakfast,Poori,2910,68.12,54.73,13.39
+Thursday,Bluedove,Breakfast,Aloo Bhaji,2910,67.71,54.4,13.31
+Thursday,Bluedove,Breakfast,Sheera,2910,64.19,51.57,12.62
+Thursday,Bluedove,Breakfast,Coleslaw,2910,67.83,54.49,13.34
+Thursday,Bluedove,Breakfast,Boiled Egg,2910,70.45,56.6,13.85
+Thursday,Bluedove,Breakfast,Banana,2910,33.63,27.02,6.61
+Thursday,Bluedove,Breakfast,Bread,2910,64.82,52.08,12.74
+Thursday,Bluedove,Breakfast,Butter,2910,73.28,58.87,14.41
+Thursday,Bluedove,Breakfast,Jam,2910,63.88,51.32,12.56
+Thursday,Bluedove,Breakfast,Flavoured Milk,2910,28.91,22.06,6.85
+Thursday,Bluedove,Breakfast,Tea,2910,25.67,19.59,6.08
+Thursday,Bluedove,Breakfast,Coffee,2910,25.68,19.6,6.08
+Thursday,Bluedove,Breakfast,Milk,2910,28.5,21.75,6.75
+Thursday,Bluedove,Lunch,Green salad,7760,114.2,104.92,9.28
+Thursday,Bluedove,Lunch,Steamed rice,7760,91.0,79.42,11.58
+Thursday,Bluedove,Lunch,Masala rice,7760,657.45,604.01,53.44
+Thursday,Bluedove,Lunch,Dal palak,7760,635.02,583.4,51.62
+Thursday,Bluedove,Lunch,Arbi matar,7760,220.01,202.13,17.88
+Thursday,Bluedove,Lunch,Soya keema,7760,231.25,212.45,18.8
+Thursday,Bluedove,Lunch,Boondi raita,7760,117.16,107.64,9.52
+Thursday,Bluedove,Lunch,Fried chilli,7760,238.56,219.17,19.39
+Thursday,Bluedove,Lunch,Garlic chutney,7760,116.63,107.15,9.48
+Thursday,Bluedove,Lunch,Chapati,7760,659.83,606.19,53.64
+Thursday,Bluedove,Lunch,Jalebi,7760,136.86,106.87,29.99
+Thursday,Bluedove,Hi-Tea,Poha,2425,135.59,106.82,28.77
+Thursday,Bluedove,Hi-Tea,Tea,2425,50.57,37.85,12.72
+Thursday,Bluedove,Hi-Tea,Coffee,2425,49.59,37.11,12.48
+Thursday,Bluedove,Hi-Tea,Milk,2425,55.83,41.78,14.05
+Thursday,Bluedove,Dinner,Green salad,7275,162.44,146.11,16.33
+Thursday,Bluedove,Dinner,Jeera Rice,7275,946.45,851.31,95.14
+Thursday,Bluedove,Dinner,Black Chana Lobiya masala,7275,327.11,294.23,32.88
+Thursday,Bluedove,Dinner,Veg kolhapur,7275,329.0,295.93,33.07
+Thursday,Bluedove,Dinner,Banarasi Dum Aloo,7275,335.46,301.74,33.72
+Thursday,Bluedove,Dinner,Garlic chutney,7275,163.84,147.37,16.47
+Thursday,Bluedove,Dinner,Chapati,7275,956.71,860.54,96.17
+Friday,Bluedove,Breakfast,Idli,3000,69.09,54.76,14.33
+Friday,Bluedove,Breakfast,Sambar,3000,68.06,53.94,14.12
+Friday,Bluedove,Breakfast,Sprouts,3000,62.25,49.34,12.91
+Friday,Bluedove,Breakfast,Coconut chutney,3000,30.67,24.31,6.36
+Friday,Bluedove,Breakfast,Corn flakes,3000,66.75,52.91,13.84
+Friday,Bluedove,Breakfast,Boiled eggs,3000,62.68,49.68,13.0
+Friday,Bluedove,Breakfast,Watermelon,3000,31.5,24.97,6.53
+Friday,Bluedove,Breakfast,Coleslaw,3000,59.55,47.2,12.35
+Friday,Bluedove,Breakfast,Bread,3000,68.48,54.28,14.2
+Friday,Bluedove,Breakfast,Butter,3000,65.34,51.79,13.55
+Friday,Bluedove,Breakfast,Jam,3000,63.63,50.43,13.2
+Friday,Bluedove,Breakfast,Flavoured milk,3000,24.38,18.36,6.02
+Friday,Bluedove,Breakfast,Tea,3000,26.41,19.89,6.52
+Friday,Bluedove,Breakfast,Coffee,3000,23.92,18.01,5.91
+Friday,Bluedove,Breakfast,Milk,3000,26.88,20.24,6.64
+Friday,Bluedove,Lunch,Green salad,8000,115.38,104.79,10.59
+Friday,Bluedove,Lunch,Moti rice,8000,683.45,620.7,62.75
+Friday,Bluedove,Lunch,Steamed rice,8000,91.56,79.0,12.56
+Friday,Bluedove,Lunch,Moong dal tadka,8000,726.16,659.48,66.68
+Friday,Bluedove,Lunch,Chana masala,8000,244.12,221.71,22.41
+Friday,Bluedove,Lunch,Khatta meetha kaddu,8000,236.29,214.59,21.7
+Friday,Bluedove,Lunch,Butter milk,8000,87.3,75.32,11.98
+Friday,Bluedove,Lunch,Fried chilli,8000,217.03,197.1,19.93
+Friday,Bluedove,Lunch,Garlic chutney,8000,110.48,100.34,10.14
+Friday,Bluedove,Lunch,Chapati,8000,675.73,613.68,62.05
+Friday,Bluedove,Lunch,Seviyan payasam,8000,143.89,111.08,32.81
+Friday,Bluedove,Hi-Tea,Mix veg pakoda,2500,135.1,97.32,37.78
+Friday,Bluedove,Hi-Tea,Tea,2500,52.57,39.97,12.6
+Friday,Bluedove,Hi-Tea,Coffee,2500,56.77,43.17,13.6
+Friday,Bluedove,Hi-Tea,Milk,2500,51.18,38.92,12.26
+Friday,Bluedove,Dinner,Green salad,7500,173.3,157.22,16.08
+Friday,Bluedove,Dinner,Steamed Rice,7500,147.72,127.31,20.41
+Friday,Bluedove,Dinner,Dal Palak,7500,1074.82,975.1,99.72
+Friday,Bluedove,Dinner,Mutter paneer,7500,368.64,334.44,34.2
+Friday,Bluedove,Dinner,Butter chicken,7500,332.93,302.04,30.89
+Friday,Bluedove,Dinner,Chapati,7500,1094.25,992.72,101.53
+Saturday,Bluedove,Breakfast,Kulcha,2318,48.37,37.6,10.77
+Saturday,Bluedove,Breakfast,White mutter,2318,47.65,37.04,10.61
+Saturday,Bluedove,Breakfast,Rawa upma,2318,47.06,36.58,10.48
+Saturday,Bluedove,Breakfast,Green chutney,2318,24.0,18.65,5.35
+Saturday,Bluedove,Breakfast,Corn flakes,2318,48.58,37.76,10.82
+Saturday,Bluedove,Breakfast,Egg bhurji,2318,46.02,35.77,10.25
+Saturday,Bluedove,Breakfast,Banana,2318,25.97,20.19,5.78
+Saturday,Bluedove,Breakfast,Coleslaw,2318,47.36,36.81,10.55
+Saturday,Bluedove,Breakfast,Bread,2318,49.0,38.09,10.91
+Saturday,Bluedove,Breakfast,Butter,2318,51.58,40.09,11.49
+Saturday,Bluedove,Breakfast,Jam,2318,49.96,38.83,11.13
+Saturday,Bluedove,Breakfast,Flavoured milk,2318,21.05,15.54,5.51
+Saturday,Bluedove,Breakfast,Tea,2318,20.96,15.48,5.48
+Saturday,Bluedove,Breakfast,Coffee,2318,18.61,13.74,4.87
+Saturday,Bluedove,Breakfast,Milk,2318,21.14,15.61,5.53
+Saturday,Bluedove,Lunch,Green salad,7416,114.93,102.02,12.91
+Saturday,Bluedove,Lunch,Steamed rice,7416,106.33,89.67,16.66
+Saturday,Bluedove,Lunch,Tomato rice,7416,790.42,701.65,88.77
+Saturday,Bluedove,Lunch,Sambhar,7416,252.06,223.75,28.31
+Saturday,Bluedove,Lunch,Cabbage thoran,7416,251.97,223.67,28.3
+Saturday,Bluedove,Lunch,Aloo choka,7416,257.39,228.48,28.91
+Saturday,Bluedove,Lunch,Coconut chutney,7416,122.88,109.08,13.8
+Saturday,Bluedove,Lunch,Lemon water,7416,116.86,103.74,13.12
+Saturday,Bluedove,Lunch,Set Dosa,7416,229.95,204.12,25.83
+Saturday,Bluedove,Lunch,Chapati,7416,761.26,675.76,85.5
+Saturday,Bluedove,Lunch,Fruit custard,7416,131.14,98.95,32.19
+Saturday,Bluedove,Hi-Tea,Doughnut,1802,67.33,45.91,21.42
+Saturday,Bluedove,Hi-Tea,Tea,1802,50.7,38.64,12.06
+Saturday,Bluedove,Hi-Tea,Coffee,1802,46.08,35.12,10.96
+Saturday,Bluedove,Hi-Tea,Milk,1802,48.74,37.15,11.59
+Saturday,Bluedove,Dinner,Green salad,6566,116.22,103.56,12.66
+Saturday,Bluedove,Dinner,Moti Rice,6566,687.6,612.69,74.91
+Saturday,Bluedove,Dinner,Mix Moti Dal,6566,690.92,615.65,75.27
+Saturday,Bluedove,Dinner,Aloo Achari,6566,230.06,205.0,25.06
+Saturday,Bluedove,Dinner,Soya chaap masala,6566,223.82,199.44,24.38
+Saturday,Bluedove,Dinner,Garlic chutney,6566,118.39,105.49,12.9
+Saturday,Bluedove,Dinner,Chapati,6566,710.26,632.88,77.38
+Sunday,Bluedove,Breakfast,Chhole,2182,39.14,31.71,7.43
+Sunday,Bluedove,Breakfast,Bhature,2182,41.57,33.68,7.89
+Sunday,Bluedove,Breakfast,Masala Daliya,2182,126.47,102.47,24.0
+Sunday,Bluedove,Breakfast,Corn flakes,2182,42.13,34.13,8.0
+Sunday,Bluedove,Breakfast,Coleslaw,2182,38.42,31.13,7.29
+Sunday,Bluedove,Breakfast,Boiled eggs,2182,37.84,30.66,7.18
+Sunday,Bluedove,Breakfast,Banana,2182,19.08,15.46,3.62
+Sunday,Bluedove,Breakfast,Bread,2182,40.77,33.03,7.74
+Sunday,Bluedove,Breakfast,Butter,2182,41.78,33.85,7.93
+Sunday,Bluedove,Breakfast,Jam,2182,41.11,33.31,7.8
+Sunday,Bluedove,Breakfast,Flavoured milk,2182,15.22,11.71,3.51
+Sunday,Bluedove,Breakfast,Tea,2182,16.74,12.88,3.86
+Sunday,Bluedove,Breakfast,Coffee,2182,16.03,12.34,3.69
+Sunday,Bluedove,Breakfast,Milk,2182,16.7,12.85,3.85
+Sunday,Bluedove,Lunch,Green salad,6984,108.96,97.72,11.24
+Sunday,Bluedove,Lunch,Steamed Rice,6984,82.47,70.26,12.21
+Sunday,Bluedove,Lunch,Fried Rice,6984,625.49,560.95,64.54
+Sunday,Bluedove,Lunch,Gobhi Manchurian,6984,208.14,186.66,21.48
+Sunday,Bluedove,Lunch,Dal Methi,6984,647.91,581.06,66.85
+Sunday,Bluedove,Lunch,Hing Kadhi,6984,208.23,186.75,21.48
+Sunday,Bluedove,Lunch,Sweet Lassi,6984,77.07,65.66,11.41
+Sunday,Bluedove,Lunch,Fried chilli,6984,189.98,170.38,19.6
+Sunday,Bluedove,Lunch,Garlic chutney,6984,101.1,90.67,10.43
+Sunday,Bluedove,Lunch,Chapati,6984,568.76,510.08,58.68
+Sunday,Bluedove,Lunch,Besan Burfi,6984,122.59,93.45,29.14
+Sunday,Bluedove,Hi-Tea,Samosa,1697,91.85,64.14,27.71
+Sunday,Bluedove,Hi-Tea,Tea,1697,34.4,25.36,9.04
+Sunday,Bluedove,Hi-Tea,Coffee,1697,38.99,28.74,10.25
+Sunday,Bluedove,Hi-Tea,Milk,1697,34.52,25.45,9.07
+Sunday,Bluedove,Dinner,Green salad,6184,154.79,138.96,15.83
+Sunday,Bluedove,Dinner,Veg paneer Biryani,6184,298.32,267.82,30.5
+Sunday,Bluedove,Dinner,Dal fry,6184,879.77,789.82,89.95
+Sunday,Bluedove,Dinner,Chicken Biryani,6184,291.18,261.41,29.77
+Sunday,Bluedove,Dinner,Boondi Raita,6184,147.74,132.63,15.11
+Sunday,Bluedove,Dinner,Chapati,6184,934.44,838.9,95.54
+Monday,Bluedove,Breakfast,Medu Vada,2910,65.82,53.18,12.64
+Monday,Bluedove,Breakfast,Sambar,2910,64.24,51.9,12.34
+Monday,Bluedove,Breakfast,Masala Oats,2910,60.92,49.22,11.7
+Monday,Bluedove,Breakfast,Corn flakes,2910,62.47,50.47,12.0
+Monday,Bluedove,Breakfast,Coleslaw,2910,59.21,47.84,11.37
+Monday,Bluedove,Breakfast,Coconut chutney,2910,29.16,23.56,5.6
+Monday,Bluedove,Breakfast,Boiled eggs,2910,58.74,47.46,11.28
+Monday,Bluedove,Breakfast,Banana,2910,33.36,26.95,6.41
+Monday,Bluedove,Breakfast,Bread,2910,61.14,49.4,11.74
+Monday,Bluedove,Breakfast,Butter,2910,64.87,52.41,12.46
+Monday,Bluedove,Breakfast,Jam,2910,62.76,50.7,12.06
+Monday,Bluedove,Breakfast,Flavoured milk,2910,23.77,18.24,5.53
+Monday,Bluedove,Breakfast,Tea,2910,24.07,18.47,5.6
+Monday,Bluedove,Breakfast,Coffee,2910,24.84,19.06,5.78
+Monday,Bluedove,Breakfast,Milk,2910,24.84,19.06,5.78
+Monday,Bluedove,Lunch,Green salad,7760,104.47,95.82,8.65
+Monday,Bluedove,Lunch,Jeera rice,7760,649.55,595.74,53.81
+Monday,Bluedove,Lunch,Steamed rice,7760,85.33,74.35,10.98
+Monday,Bluedove,Lunch,Dal tadka,7760,653.36,599.24,54.12
+Monday,Bluedove,Lunch,Gatta curry,7760,215.3,197.47,17.83
+Monday,Bluedove,Lunch,Tawa veg masala,7760,224.47,205.88,18.59
+Monday,Bluedove,Lunch,Rasna,7760,92.5,80.6,11.9
+Monday,Bluedove,Lunch,Fried chilli,7760,226.22,207.48,18.74
+Monday,Bluedove,Lunch,Garlic chutney,7760,102.83,94.31,8.52
+Monday,Bluedove,Lunch,Chapati,7760,640.14,587.11,53.03
+Monday,Bluedove,Lunch,Balushahi,7760,228.92,209.96,18.96
+Monday,Bluedove,Hi-Tea,Macaroni,2425,140.87,113.49,27.38
+Monday,Bluedove,Hi-Tea,Tea,2425,56.07,42.91,13.16
+Monday,Bluedove,Hi-Tea,Coffee,2425,51.5,39.42,12.08
+Monday,Bluedove,Hi-Tea,Milk,2425,53.61,41.03,12.58
+Monday,Bluedove,Dinner,Green salad,7275,169.95,151.12,18.83
+Monday,Bluedove,Dinner,Steamed Rice,7275,149.73,126.48,23.25
+Monday,Bluedove,Dinner,Black masoor Dal,7275,1077.99,958.53,119.46
+Monday,Bluedove,Dinner,Veg kofta curry,7275,342.25,304.32,37.93
+Monday,Bluedove,Dinner,Egg Keema curry,7275,353.57,314.39,39.18
+Monday,Bluedove,Dinner,Chapati,7275,1012.98,900.73,112.25
+Tuesday,Bluedove,Breakfast,Aloo Paratha,3000,64.88,52.35,12.53
+Tuesday,Bluedove,Breakfast,Curd,3000,65.09,52.52,12.57
+Tuesday,Bluedove,Breakfast,Masala poha,3000,63.67,51.37,12.3
+Tuesday,Bluedove,Breakfast,Green chutney,3000,32.62,26.32,6.3
+Tuesday,Bluedove,Breakfast,Corn flakes,3000,64.35,51.92,12.43
+Tuesday,Bluedove,Breakfast,Coleslaw,3000,63.82,51.5,12.32
+Tuesday,Bluedove,Breakfast,Boiled eggs,3000,62.25,50.23,12.02
+Tuesday,Bluedove,Breakfast,Banana,3000,31.72,25.59,6.13
+Tuesday,Bluedove,Breakfast,Bread,3000,61.22,49.4,11.82
+Tuesday,Bluedove,Breakfast,Butter,3000,60.61,48.91,11.7
+Tuesday,Bluedove,Breakfast,Jam,3000,60.62,48.91,11.71
+Tuesday,Bluedove,Breakfast,Flavoured milk,3000,23.53,18.04,5.49
+Tuesday,Bluedove,Breakfast,Tea,3000,23.66,18.14,5.52
+Tuesday,Bluedove,Breakfast,Coffee,3000,26.57,20.37,6.2
+Tuesday,Bluedove,Breakfast,Milk,3000,24.74,18.96,5.78
+Tuesday,Bluedove,Lunch,Green salad,8000,108.27,97.94,10.33
+Tuesday,Bluedove,Lunch,Steamed rice,8000,98.02,84.23,13.79
+Tuesday,Bluedove,Lunch,Masala rice,8000,652.31,590.07,62.24
+Tuesday,Bluedove,Lunch,Kadhi pakoda,8000,242.32,197.28,45.04
+Tuesday,Bluedove,Lunch,Lauki tamatar,8000,244.71,221.36,23.35
+Tuesday,Bluedove,Lunch,Chana dal tadka,8000,739.55,668.99,70.56
+Tuesday,Bluedove,Lunch,Lemon water,8000,107.54,97.28,10.26
+Tuesday,Bluedove,Lunch,Fried chilli,8000,226.19,204.61,21.58
+Tuesday,Bluedove,Lunch,Garlic chutney,8000,121.08,109.53,11.55
+Tuesday,Bluedove,Lunch,Chapati,8000,659.12,596.23,62.89
+Tuesday,Bluedove,Lunch,Sooji ka halwa,8000,146.74,112.83,33.91
+Tuesday,Bluedove,Hi-Tea,Banana cake,2500,92.6,63.9,28.7
+Tuesday,Bluedove,Hi-Tea,Tea,2500,66.81,51.53,15.28
+Tuesday,Bluedove,Hi-Tea,Coffee,2500,69.88,53.9,15.98
+Tuesday,Bluedove,Hi-Tea,Milk,2500,69.58,53.67,15.91
+Tuesday,Bluedove,Dinner,Green salad,7500,129.33,118.79,10.54
+Tuesday,Bluedove,Dinner,Tomato Rice,7500,802.77,737.34,65.43
+Tuesday,Bluedove,Dinner,Dal makhani,7500,782.13,718.38,63.75
+Tuesday,Bluedove,Dinner,Mangodi papad,7500,280.74,257.86,22.88
+Tuesday,Bluedove,Dinner,Aloo Gobhi masala,7500,267.79,245.96,21.83
+Tuesday,Bluedove,Dinner,Garlic chutney,7500,135.73,124.67,11.06
+Tuesday,Bluedove,Dinner,Chapati,7500,850.0,780.72,69.28
+Wednesday,Bluedove,Breakfast,Pasta,3090,76.78,62.39,14.39
+Wednesday,Bluedove,Breakfast,Seviyan upma,3090,71.34,57.97,13.37
+Wednesday,Bluedove,Breakfast,Green chutney,3090,39.05,31.73,7.32
+Wednesday,Bluedove,Breakfast,Corn flakes,3090,78.53,63.82,14.71
+Wednesday,Bluedove,Breakfast,Coleslaw,3090,72.43,58.86,13.57
+Wednesday,Bluedove,Breakfast,Boiled eggs,3090,70.33,57.15,13.18
+Wednesday,Bluedove,Breakfast,Watermelon,3090,35.75,29.05,6.7
+Wednesday,Bluedove,Breakfast,Bread,3090,73.2,59.48,13.72
+Wednesday,Bluedove,Breakfast,Butter,3090,78.31,63.64,14.67
+Wednesday,Bluedove,Breakfast,Jam,3090,76.57,62.22,14.35
+Wednesday,Bluedove,Breakfast,Flavoured milk,3090,30.56,23.59,6.97
+Wednesday,Bluedove,Breakfast,Tea,3090,27.46,21.2,6.26
+Wednesday,Bluedove,Breakfast,Coffee,3090,27.98,21.6,6.38
+Wednesday,Bluedove,Breakfast,Milk,3090,29.81,23.01,6.8
+Wednesday,Bluedove,Lunch,Green salad,8240,129.87,122.6,7.27
+Wednesday,Bluedove,Lunch,Steamed rice,8240,96.45,86.5,9.95
+Wednesday,Bluedove,Lunch,Jeera rice,8240,815.25,769.63,45.62
+Wednesday,Bluedove,Lunch,Rajma masala,8240,271.97,256.75,15.22
+Wednesday,Bluedove,Lunch,Bhindi to pyaaz,8240,248.64,234.73,13.91
+Wednesday,Bluedove,Lunch,Dahi aloo,8240,268.34,253.32,15.02
+Wednesday,Bluedove,Lunch,Curd,8240,248.14,234.26,13.88
+Wednesday,Bluedove,Lunch,Fried chilli,8240,274.2,258.86,15.34
+Wednesday,Bluedove,Lunch,Garlic chutney,8240,121.49,114.69,6.8
+Wednesday,Bluedove,Lunch,Chapati,8240,738.14,696.84,41.3
+Wednesday,Bluedove,Lunch,Pastry,8240,255.49,241.19,14.3
+Wednesday,Bluedove,Hi-Tea,Bombay sandwich,2575,129.82,103.41,26.41
+Wednesday,Bluedove,Hi-Tea,Tea,2575,52.17,39.48,12.69
+Wednesday,Bluedove,Hi-Tea,Coffee,2575,56.2,42.53,13.67
+Wednesday,Bluedove,Hi-Tea,Milk,2575,53.81,40.72,13.09
+Wednesday,Bluedove,Dinner,Green salad,7725,181.21,169.99,11.22
+Wednesday,Bluedove,Dinner,Steamed Rice,7725,136.76,121.88,14.88
+Wednesday,Bluedove,Dinner,Mix Dal Tadka,7725,1185.92,1112.51,73.41
+Wednesday,Bluedove,Dinner,Palak paneer,7725,389.88,365.75,24.13
+Wednesday,Bluedove,Dinner,Tawa chicken,7725,378.69,355.25,23.44
+Wednesday,Bluedove,Dinner,Chapati,7725,1045.11,980.41,64.7
