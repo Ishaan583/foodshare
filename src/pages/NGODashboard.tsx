@@ -11,11 +11,11 @@ const NGODashboard = () => {
   const availableDonations = [
     {
       id: 1,
-      donor: "Hotel Paradise",
+      donor: "Hotel Rajputana Palace",
       type: "Cooked Rice & Curry",
       quantity: "25 kg",
       expiryHours: 4,
-      location: "MG Road, Bangalore",
+      location: "MI Road, Jaipur",
       distance: "2.3 km",
     },
     {
@@ -24,16 +24,16 @@ const NGODashboard = () => {
       type: "Fresh Vegetables",
       quantity: "40 kg",
       expiryHours: 12,
-      location: "HSR Layout, Bangalore",
+      location: "C-Scheme, Jaipur",
       distance: "5.1 km",
     },
     {
       id: 3,
-      donor: "College Mess",
+      donor: "Manipal University Mess",
       type: "Bread & Breakfast Items",
       quantity: "15 kg",
       expiryHours: 6,
-      location: "Koramangala, Bangalore",
+      location: "Malviya Nagar, Jaipur",
       distance: "3.7 km",
     },
     {
@@ -42,8 +42,51 @@ const NGODashboard = () => {
       type: "Mixed Food Items",
       quantity: "50 kg",
       expiryHours: 3,
-      location: "Indiranagar, Bangalore",
+      location: "Vaishali Nagar, Jaipur",
       distance: "4.2 km",
+    },
+  ];
+
+  const nearbyHotels = [
+    {
+      id: 1,
+      name: "The Oberoi Rajvilas",
+      location: "Goner Road, Jaipur",
+      distance: "3.5 km",
+      rating: 4.8,
+      contact: "+91-141-2680101",
+    },
+    {
+      id: 2,
+      name: "Fairmont Jaipur",
+      location: "2 Riico Kukas, Jaipur",
+      distance: "4.2 km",
+      rating: 4.7,
+      contact: "+91-141-2332200",
+    },
+    {
+      id: 3,
+      name: "ITC Rajputana",
+      location: "Palace Road, Jaipur",
+      distance: "1.8 km",
+      rating: 4.6,
+      contact: "+91-141-5100100",
+    },
+    {
+      id: 4,
+      name: "Trident Jaipur",
+      location: "Amber Fort Road, Jaipur",
+      distance: "6.1 km",
+      rating: 4.5,
+      contact: "+91-141-2670101",
+    },
+    {
+      id: 5,
+      name: "Rambagh Palace",
+      location: "Bhawani Singh Road, Jaipur",
+      distance: "2.5 km",
+      rating: 4.9,
+      contact: "+91-141-2211919",
     },
   ];
 
@@ -121,59 +164,97 @@ const NGODashboard = () => {
             </Card>
           </div>
 
-          <Card className="shadow-medium">
-            <CardHeader>
-              <CardTitle>Available Donations</CardTitle>
-              <CardDescription>Request food donations from nearby donors</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid gap-4">
-                {availableDonations.map((donation) => (
-                  <Card key={donation.id} className="border-border hover:shadow-soft transition-all">
-                    <CardContent className="pt-6">
-                      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                        <div className="flex items-start gap-4">
-                          <div className="h-12 w-12 rounded-lg bg-gradient-hero flex items-center justify-center flex-shrink-0">
-                            <Package className="h-6 w-6 text-primary-foreground" />
+          <div className="grid lg:grid-cols-2 gap-6">
+            <Card className="shadow-medium">
+              <CardHeader>
+                <CardTitle>Available Donations</CardTitle>
+                <CardDescription>Request food donations from nearby donors in Jaipur</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid gap-4">
+                  {availableDonations.map((donation) => (
+                    <Card key={donation.id} className="border-border hover:shadow-soft transition-all">
+                      <CardContent className="pt-6">
+                        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                          <div className="flex items-start gap-4">
+                            <div className="h-12 w-12 rounded-lg bg-gradient-hero flex items-center justify-center flex-shrink-0">
+                              <Package className="h-6 w-6 text-primary-foreground" />
+                            </div>
+                            <div className="flex-1">
+                              <div className="flex items-start justify-between gap-2 mb-1">
+                                <h3 className="font-semibold">{donation.donor}</h3>
+                                <Badge variant="outline" className="flex items-center gap-1">
+                                  <MapPin className="h-3 w-3" />
+                                  {donation.distance}
+                                </Badge>
+                              </div>
+                              <p className="text-sm text-muted-foreground mb-2">{donation.type}</p>
+                              <div className="flex flex-wrap gap-3 text-sm">
+                                <span className="flex items-center gap-1">
+                                  <Package className="h-4 w-4 text-muted-foreground" />
+                                  {donation.quantity}
+                                </span>
+                                <span className={`flex items-center gap-1 font-medium ${getUrgencyColor(donation.expiryHours)}`}>
+                                  <Clock className="h-4 w-4" />
+                                  {donation.expiryHours}h left
+                                </span>
+                                <span className="text-muted-foreground">
+                                  {donation.location}
+                                </span>
+                              </div>
+                            </div>
                           </div>
+                          <Button
+                            onClick={() => handleRequest(donation.donor)}
+                            className="bg-gradient-hero hover:opacity-90 whitespace-nowrap"
+                          >
+                            <CheckCircle className="h-4 w-4 mr-2" />
+                            Request
+                          </Button>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-medium">
+              <CardHeader>
+                <CardTitle>Nearby Hotels in Jaipur</CardTitle>
+                <CardDescription>Partner hotels for food collection</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid gap-3">
+                  {nearbyHotels.map((hotel) => (
+                    <Card key={hotel.id} className="border-border hover:shadow-soft transition-all">
+                      <CardContent className="pt-4">
+                        <div className="flex items-start justify-between gap-3">
                           <div className="flex-1">
                             <div className="flex items-start justify-between gap-2 mb-1">
-                              <h3 className="font-semibold">{donation.donor}</h3>
-                              <Badge variant="outline" className="flex items-center gap-1">
-                                <MapPin className="h-3 w-3" />
-                                {donation.distance}
+                              <h3 className="font-semibold text-sm">{hotel.name}</h3>
+                              <Badge variant="secondary" className="text-xs">
+                                ⭐ {hotel.rating}
                               </Badge>
                             </div>
-                            <p className="text-sm text-muted-foreground mb-2">{donation.type}</p>
-                            <div className="flex flex-wrap gap-3 text-sm">
-                              <span className="flex items-center gap-1">
-                                <Package className="h-4 w-4 text-muted-foreground" />
-                                {donation.quantity}
-                              </span>
-                              <span className={`flex items-center gap-1 font-medium ${getUrgencyColor(donation.expiryHours)}`}>
-                                <Clock className="h-4 w-4" />
-                                {donation.expiryHours}h left
-                              </span>
-                              <span className="text-muted-foreground">
-                                {donation.location}
-                              </span>
+                            <div className="space-y-1">
+                              <p className="text-xs text-muted-foreground flex items-center gap-1">
+                                <MapPin className="h-3 w-3" />
+                                {hotel.location} • {hotel.distance}
+                              </p>
+                              <p className="text-xs text-muted-foreground">
+                                📞 {hotel.contact}
+                              </p>
                             </div>
                           </div>
                         </div>
-                        <Button
-                          onClick={() => handleRequest(donation.donor)}
-                          className="bg-gradient-hero hover:opacity-90 whitespace-nowrap"
-                        >
-                          <CheckCircle className="h-4 w-4 mr-2" />
-                          Request
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </div>
