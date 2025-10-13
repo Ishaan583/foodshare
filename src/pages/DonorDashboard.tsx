@@ -1,213 +1,290 @@
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { supabase } from "@/integrations/supabase/client";
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Plus, Package, Clock, MapPin } from "lucide-react";
-import { useState } from "react";
+import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { Calendar, Package, MapPin, Loader2 } from "lucide-react";
+import type { User } from "@supabase/supabase-js";
+
+interface Donation {
+  id: string;
+  food_type: string;
+  quantity: number;
+  unit: string;
+  status: string;
+  created_at: string;
+}
 
 const DonorDashboard = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
+  const [recentDonations, setRecentDonations] = useState<Donation[]>([]);
+  const [donationForm, setDonationForm] = useState({
     foodType: "",
     quantity: "",
-    expiryHours: "",
-    location: "",
-    description: "",
+    unit: "kg",
+    expiryDate: "",
+    pickupLocation: "",
+    notes: "",
   });
+  const navigate = useNavigate();
+  const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Donation Posted!",
-      description: "Your food donation has been listed for NGOs to view.",
+  useEffect(() => {
+    // Check authentication
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (!session) {
+        navigate("/auth");
+      } else {
+        setUser(session.user);
+        loadDonations(session.user.id);
+      }
+      setLoading(false);
     });
-    setFormData({
-      foodType: "",
-      quantity: "",
-      expiryHours: "",
-      location: "",
-      description: "",
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!session) {
+        navigate("/auth");
+      } else {
+        setUser(session.user);
+      }
     });
+
+    return () => subscription.unsubscribe();
+  }, [navigate]);
+
+  const loadDonations = async (userId: string) => {
+    const { data, error } = await supabase
+      .from("donations")
+      .select("*")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .limit(5);
+
+    if (error) {
+      console.error("Error loading donations:", error);
+    } else {
+      setRecentDonations(data || []);
+    }
   };
 
-  const recentDonations = [
-    { id: 1, type: "Cooked Rice", quantity: "15 kg", status: "Picked Up", time: "2 hours ago" },
-    { id: 2, type: "Fresh Vegetables", quantity: "8 kg", status: "Available", time: "5 hours ago" },
-    { id: 3, type: "Bread & Pastries", quantity: "20 kg", status: "Reserved", time: "1 day ago" },
-  ];
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!user) return;
+
+    setSubmitting(true);
+
+    const { error } = await supabase.from("donations").insert({
+      user_id: user.id,
+      food_type: donationForm.foodType,
+      quantity: parseFloat(donationForm.quantity),
+      unit: donationForm.unit,
+      expiry_date: donationForm.expiryDate || null,
+      pickup_location: donationForm.pickupLocation,
+      notes: donationForm.notes,
+      status: "available",
+    });
+
+    if (error) {
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "Failed to post donation. Please try again.",
+      });
+    } else {
+      toast({
+        title: "Success!",
+        description: "Your donation has been posted successfully.",
+      });
+      setDonationForm({
+        foodType: "",
+        quantity: "",
+        unit: "kg",
+        expiryDate: "",
+        pickupLocation: "",
+        notes: "",
+      });
+      loadDonations(user.id);
+    }
+
+    setSubmitting(false);
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin" />
+      </div>
+    );
+  }
+
+  const totalDonations = recentDonations.length;
+  const activeDonations = recentDonations.filter(d => d.status === "available").length;
 
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
-      <div className="pt-24 pb-12 px-4">
-        <div className="container mx-auto">
-          <div className="mb-8">
-            <h1 className="text-4xl font-bold mb-2">Donor Dashboard</h1>
-            <p className="text-muted-foreground">Post your surplus food and track your donations</p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 gap-6">
-            {/* Post Donation Form */}
-            <Card className="lg:col-span-2 shadow-medium">
+      <div className="container mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
+            <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Plus className="h-5 w-5 text-primary" />
-                  Post New Donation
-                </CardTitle>
-                <CardDescription>
-                  Share details about the food you'd like to donate
-                </CardDescription>
+                <CardTitle>Post New Donation</CardTitle>
+                <CardDescription>Share your excess food with those in need</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="foodType">Food Type</Label>
                       <Select
-                        value={formData.foodType}
-                        onValueChange={(value) =>
-                          setFormData({ ...formData, foodType: value })
-                        }
+                        value={donationForm.foodType}
+                        onValueChange={(value) => setDonationForm({ ...donationForm, foodType: value })}
+                        required
                       >
                         <SelectTrigger>
                           <SelectValue placeholder="Select food type" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="cooked">Cooked Food</SelectItem>
-                          <SelectItem value="vegetables">Fresh Vegetables</SelectItem>
-                          <SelectItem value="fruits">Fruits</SelectItem>
-                          <SelectItem value="bakery">Bakery Items</SelectItem>
+                          <SelectItem value="cooked">Cooked Meals</SelectItem>
+                          <SelectItem value="fresh">Fresh Produce</SelectItem>
                           <SelectItem value="packaged">Packaged Food</SelectItem>
+                          <SelectItem value="bakery">Bakery Items</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="quantity">Quantity (kg)</Label>
+                      <Label htmlFor="quantity">Quantity</Label>
+                      <div className="flex gap-2">
+                        <Input
+                          id="quantity"
+                          type="number"
+                          step="0.01"
+                          placeholder="0"
+                          value={donationForm.quantity}
+                          onChange={(e) => setDonationForm({ ...donationForm, quantity: e.target.value })}
+                          required
+                          className="flex-1"
+                        />
+                        <Select
+                          value={donationForm.unit}
+                          onValueChange={(value) => setDonationForm({ ...donationForm, unit: value })}
+                        >
+                          <SelectTrigger className="w-24">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="kg">kg</SelectItem>
+                            <SelectItem value="liters">liters</SelectItem>
+                            <SelectItem value="servings">servings</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="expiryDate">Expiry Date (Optional)</Label>
                       <Input
-                        id="quantity"
-                        type="number"
-                        placeholder="Enter quantity"
-                        value={formData.quantity}
-                        onChange={(e) =>
-                          setFormData({ ...formData, quantity: e.target.value })
-                        }
+                        id="expiryDate"
+                        type="date"
+                        value={donationForm.expiryDate}
+                        onChange={(e) => setDonationForm({ ...donationForm, expiryDate: e.target.value })}
                       />
                     </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="expiryHours">Best Before (hours)</Label>
-                      <Input
-                        id="expiryHours"
-                        type="number"
-                        placeholder="Hours until expiry"
-                        value={formData.expiryHours}
-                        onChange={(e) =>
-                          setFormData({ ...formData, expiryHours: e.target.value })
-                        }
-                      />
-                    </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="location">Pickup Location</Label>
+                      <Label htmlFor="pickupLocation">Pickup Location</Label>
                       <Input
-                        id="location"
+                        id="pickupLocation"
                         placeholder="Enter address"
-                        value={formData.location}
-                        onChange={(e) =>
-                          setFormData({ ...formData, location: e.target.value })
-                        }
+                        value={donationForm.pickupLocation}
+                        onChange={(e) => setDonationForm({ ...donationForm, pickupLocation: e.target.value })}
+                        required
                       />
                     </div>
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="description">Additional Details</Label>
+                    <Label htmlFor="notes">Additional Notes</Label>
                     <Textarea
-                      id="description"
-                      placeholder="Add any relevant information..."
-                      value={formData.description}
-                      onChange={(e) =>
-                        setFormData({ ...formData, description: e.target.value })
-                      }
-                      rows={4}
+                      id="notes"
+                      placeholder="Any special instructions..."
+                      value={donationForm.notes}
+                      onChange={(e) => setDonationForm({ ...donationForm, notes: e.target.value })}
+                      rows={3}
                     />
                   </div>
 
-                  <Button type="submit" className="w-full bg-gradient-hero hover:opacity-90">
+                  <Button type="submit" className="w-full" disabled={submitting}>
+                    {submitting ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
                     Post Donation
                   </Button>
                 </form>
               </CardContent>
             </Card>
+          </div>
 
-            {/* Recent Donations Sidebar */}
-            <div className="space-y-6">
-              <Card className="shadow-medium">
-                <CardHeader>
-                  <CardTitle>Recent Donations</CardTitle>
-                  <CardDescription>Your latest food donations</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  {recentDonations.map((donation) => (
-                    <div
-                      key={donation.id}
-                      className="flex items-start gap-3 p-3 rounded-lg border border-border hover:bg-muted/50 transition-colors"
-                    >
-                      <div className="h-10 w-10 rounded-lg bg-gradient-hero flex items-center justify-center flex-shrink-0">
-                        <Package className="h-5 w-5 text-primary-foreground" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="font-medium text-sm">{donation.type}</p>
-                        <p className="text-xs text-muted-foreground">{donation.quantity}</p>
-                        <div className="flex items-center gap-1 mt-1">
-                          <Clock className="h-3 w-3 text-muted-foreground" />
-                          <span className="text-xs text-muted-foreground">{donation.time}</span>
-                        </div>
+          <div className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Recent Donations</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                {recentDonations.length === 0 ? (
+                  <p className="text-sm text-muted-foreground">No donations yet</p>
+                ) : (
+                  recentDonations.map((donation) => (
+                    <div key={donation.id} className="flex items-center justify-between p-3 bg-muted rounded-lg">
+                      <div>
+                        <p className="font-medium">{donation.food_type}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {donation.quantity} {donation.unit}
+                        </p>
                       </div>
                       <span
-                        className={`text-xs px-2 py-1 rounded-full ${
-                          donation.status === "Available"
-                            ? "bg-primary/10 text-primary"
-                            : donation.status === "Reserved"
-                            ? "bg-secondary/10 text-secondary"
-                            : "bg-muted text-muted-foreground"
+                        className={`text-xs px-2 py-1 rounded ${
+                          donation.status === "available"
+                            ? "bg-primary/20 text-primary"
+                            : "bg-secondary/20 text-secondary"
                         }`}
                       >
                         {donation.status}
                       </span>
                     </div>
-                  ))}
-                </CardContent>
-              </Card>
+                  ))
+                )}
+              </CardContent>
+            </Card>
 
-              <Card className="bg-gradient-hero text-primary-foreground shadow-medium">
-                <CardHeader>
-                  <CardTitle>Your Impact</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="opacity-90">Total Donations</span>
-                    <span className="font-bold">127</span>
+            <Card>
+              <CardHeader>
+                <CardTitle>Your Impact</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Package className="h-8 w-8 text-primary" />
+                  <div>
+                    <p className="text-2xl font-bold">{totalDonations}</p>
+                    <p className="text-sm text-muted-foreground">Total Donations</p>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="opacity-90">Food Saved</span>
-                    <span className="font-bold">1,856 kg</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Calendar className="h-8 w-8 text-primary" />
+                  <div>
+                    <p className="text-2xl font-bold">{activeDonations}</p>
+                    <p className="text-sm text-muted-foreground">Active Listings</p>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="opacity-90">People Fed</span>
-                    <span className="font-bold">2,340+</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>

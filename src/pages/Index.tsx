@@ -56,15 +56,15 @@ const Index = () => {
                 wastage and make a real difference in your community.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/donor">
+                <Link to="/auth">
                   <Button size="lg" className="bg-gradient-hero hover:opacity-90 shadow-medium">
-                    Become a Donor
+                    Get Started
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                <Link to="/ngo">
+                <Link to="/analytics">
                   <Button size="lg" variant="outline">
-                    Join as NGO
+                    View Analytics
                   </Button>
                 </Link>
               </div>
