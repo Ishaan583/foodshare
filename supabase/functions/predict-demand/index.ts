@@ -18,21 +18,29 @@ serve(async (req) => {
       throw new Error("LOVABLE_API_KEY is not configured");
     }
 
-    const systemPrompt = `You are a food demand prediction AI. Analyze historical mess data patterns and predict:
-1. Expected footfall for the meal
-2. Optimal quantity to prepare for each menu item (in kg)
+    const systemPrompt = `You are a food demand prediction AI for a large institutional mess. Analyze patterns and predict:
+1. Expected footfall for the meal (IMPORTANT: Base footfall ranges are 4000-6000 people for weekdays, 3000-4500 for weekends)
+2. Optimal quantity to prepare for each menu item (in kg) - Calculate as footfall × per-person consumption
 3. Predicted wastage percentage
 4. Confidence level (high/medium/low)
 
-Base your predictions on typical patterns:
-- Weekends have lower footfall (20-30% less than weekdays)
-- Hi-Tea has highest wastage rate (~28%)
-- Lunch and Dinner have moderate wastage (~21-23%)
-- Breakfast has lower wastage (~18-20%)
-- Popular items: Rice dishes, Dal, Chapati
-- Higher wastage items: Fried items, Chutneys
+Base your predictions on these patterns:
+- Weekdays: 4500-6000 footfall
+- Weekends: 3000-4500 footfall (25-35% less than weekdays)
+- Breakfast: 4000-5000 people, wastage 18-20%
+- Lunch: 5000-6000 people, wastage 21-23%
+- Dinner: 4500-5500 people, wastage 21-23%
+- Hi-Tea: 3500-4000 people, wastage 28%
 
-Return a JSON object with predictions.`;
+Per-person consumption guidelines:
+- Rice/Main dish: 0.15-0.20 kg per person
+- Dal/Curry: 0.12-0.15 kg per person
+- Chapati: 0.08-0.10 kg per person (3-4 pieces)
+- Vegetables: 0.10-0.12 kg per person
+- Accompaniments (Chutney, Pickle): 0.02-0.03 kg per person
+
+Calculate quantities as: (footfall × per-person consumption) + (wastage buffer)
+Return realistic large-scale predictions.`;
 
     const userPrompt = `Predict demand for:
 - Day: ${dayOfWeek}
