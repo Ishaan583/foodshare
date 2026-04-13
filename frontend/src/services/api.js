@@ -5,7 +5,6 @@
 // ============================================
 
 import { summaryStats, weeklyWastageTrend, categoryWaste } from '../data/dashboardData';
-import { dailyWasteData, weeklyWasteData } from '../data/statsData';
 import { weeklyMenu } from '../data/menuData';
 import { recommendedDishes } from '../data/recommendationsData';
 
